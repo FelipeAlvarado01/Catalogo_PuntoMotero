@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+$darkColor: #000000;
+$whiteColor: #ffffff;
+$grayColor: #48494b;
+$greeColor: #1faca2;
+$yellowColor: #ebd96b;
+$typographyPoppins: 'Poppins', 'Arial Narrow Bold', sans-serif;
+$typographyInter: 'Inter', 'Arial Narrow Bold', sans-serif;
+$typographyRoboto: 'Roboto', 'Arial Narrow Bold', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(../../assets/Image/Banner.png);
+  background-size: 100%;
+  width: 100%;
+
+  .headboard {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0 25px;
+    width: 100%;
+    flex-wrap: wrap;
+
+    .link-section {
+      display: flex;
+      align-items: center;
+
+      .ul-links {
+        font-family: $typographyInter;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        align-items: center;
+
+        li {
+          a {
+            text-decoration: none;
+            color: $whiteColor;
+            padding: 0 45px;
+          }
+        }
+      }
+    }
+
+    .img-logo {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      padding: 0 45px;
+    }
+
+    .logo {
+      cursor: pointer;
+    }
+
+    .logo>img {
+      width: 150px;
+    }
+  }
+
+  .text-header {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 0 70px;
+  
+    p {
+      text-align: start;
+      left: 0;
+      font-family: $typographyPoppins;
+      font-size: 77px;
+      color: $whiteColor;
+    }
+  
+    a {
+      padding: 25px 0;
+  
+      button {
+        left: 0;
+        font-family: $typographyInter;
+        font-size: 24px;
+        background-color: $greeColor;
+        color: $whiteColor;
+        border-radius: 15px;
+        padding: 20px 70px;
+        cursor: pointer;
+        border: none;
+      }
+    }
+  }
+}
+
+
+
+.logos-marcas {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  padding: 0px 70px;
+  width: 100%;
+  gap:10px;
+  img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 25%;
+  }
+}
+
+.article-favoritos {
+  background-color: $greeColor;
+  padding: 50px 70px;
+
+  h3 {
+    font-family: $typographyPoppins;
+    font-size: 48px;
+    padding: 25px 0;
+  }
+
+  .section-favortios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    section {
+      padding: 20px;
+
+      img {
+        width: 100%;
+        border-radius: 15px;
+      }
+
+      .accesorio-text {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        h4 {
+          font-family: $typographyPoppins;
+          font-size: 32px;
+          font-weight: 500;
+        }
+
+        p {
+          font-family: $typographyPoppins;
+          color: $whiteColor;
+          font-size: 24px;
+          font-weight: 500;
+        }
+
+        .arrow {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          a {
+            cursor: pointer;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+
+  .promocion-text {
+    font-family: $typographyPoppins;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    padding: 25px 0;
+  }
+
+  .solicitud-text {
+    font-family: $typographyPoppins;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .form-section {
+    padding: 25px 0;
+    width: 50%;
+    .formulario-solicitud {
+      background-color: $darkColor;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 25px;
+      flex-wrap: wrap;
+
+      input[type=email],textarea {
+        font-family: $typographyPoppins;
+        font-size: 20px;
+        background: none;
+        border-radius: 5px;
+        border: none;
+        padding: 15px 0 10px 10px;
+        width: 100%;
+        outline: none;
+        border-bottom: 1px solid #838383;
+        color: $whiteColor;
+        flex-wrap: wrap;
+        resize: none;
+      }
+
+      input[type=submit] {
+        font-family: $typographyPoppins;
+        font-size: 22px;
+        border-radius: 5px;
+        border: none;
+        margin: 15px 0;
+        padding: 10px 20px;
+        flex-wrap: wrap;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+footer{
+  margin-top: 20px;
+  background-color: $darkColor;
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  .redes-sociales{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    h3{
+      color: $whiteColor;
+      font-family: $typographyPoppins;
+      font-size: 40px;
+    }
+    ul{
+      i{
+        margin: 0 10px;
+        padding: 10px;
+        background-color: #ebd96b;
+        border-radius: 10px;
+      }
+    }
+  }
+  .compañia , .enlace-rapido{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;      
+    font-family: $typographyRoboto;
+    font-size: 24px;
+    h4{
+      color: $whiteColor;
+    }
+    .enlace-secciones{
+      text-decoration: none;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      p{
+        color: $grayColor;
+      }
+    }
+  }
+  
+.footer-copyright {
+  background-color: #50555d;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 12px;
+  width: 100%;
+  color: #fafbfd;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+}

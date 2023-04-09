@@ -1,0 +1,260 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(../../assets/Image/Banner.png);
+  background-size: 100%;
+  width: 100%;
+}
+header .headboard {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0 25px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+header .headboard .link-section {
+  display: flex;
+  align-items: center;
+}
+header .headboard .link-section .ul-links {
+  font-family: "Inter", "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+}
+header .headboard .link-section .ul-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0 45px;
+}
+header .headboard .img-logo {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0 45px;
+}
+header .headboard .logo {
+  cursor: pointer;
+}
+header .headboard .logo > img {
+  width: 150px;
+}
+header .text-header {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding: 0 70px;
+}
+header .text-header p {
+  text-align: start;
+  left: 0;
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 77px;
+  color: #ffffff;
+}
+header .text-header a {
+  padding: 25px 0;
+}
+header .text-header a button {
+  left: 0;
+  font-family: "Inter", "Arial Narrow Bold", sans-serif;
+  font-size: 24px;
+  background-color: #1faca2;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 20px 70px;
+  cursor: pointer;
+  border: none;
+}
+
+.logos-marcas {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  padding: 0px 70px;
+  width: 100%;
+  gap: 10px;
+}
+.logos-marcas img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 25%;
+}
+
+.article-favoritos {
+  background-color: #1faca2;
+  padding: 50px 70px;
+}
+.article-favoritos h3 {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 48px;
+  padding: 25px 0;
+}
+.article-favoritos .section-favortios {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.article-favoritos .section-favortios section {
+  padding: 20px;
+}
+.article-favoritos .section-favortios section img {
+  width: 100%;
+  border-radius: 15px;
+}
+.article-favoritos .section-favortios section .accesorio-text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.article-favoritos .section-favortios section .accesorio-text h4 {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+.article-favoritos .section-favortios section .accesorio-text p {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+.article-favoritos .section-favortios section .accesorio-text .arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article-favoritos .section-favortios section .accesorio-text .arrow a {
+  cursor: pointer;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+.contacto .promocion-text {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  text-align: center;
+  padding: 25px 0;
+}
+.contacto .solicitud-text {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px;
+}
+.contacto .form-section {
+  padding: 25px 0;
+  width: 50%;
+}
+.contacto .form-section .formulario-solicitud {
+  background-color: #000000;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  flex-wrap: wrap;
+}
+.contacto .form-section .formulario-solicitud input[type=email], .contacto .form-section .formulario-solicitud textarea {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  background: none;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 0 10px 10px;
+  width: 100%;
+  outline: none;
+  border-bottom: 1px solid #838383;
+  color: #ffffff;
+  flex-wrap: wrap;
+  resize: none;
+}
+.contacto .form-section .formulario-solicitud input[type=submit] {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 22px;
+  border-radius: 5px;
+  border: none;
+  margin: 15px 0;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #000000;
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+footer .redes-sociales {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+footer .redes-sociales h3 {
+  color: #ffffff;
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+}
+footer .redes-sociales ul i {
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #ebd96b;
+  border-radius: 10px;
+}
+footer .compañia, footer .enlace-rapido {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  font-family: "Roboto", "Arial Narrow Bold", sans-serif;
+  font-size: 24px;
+}
+footer .compañia h4, footer .enlace-rapido h4 {
+  color: #ffffff;
+}
+footer .compañia .enlace-secciones, footer .enlace-rapido .enlace-secciones {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+footer .compañia .enlace-secciones p, footer .enlace-rapido .enlace-secciones p {
+  color: #48494b;
+}
+footer .footer-copyright {
+  background-color: #50555d;
+  font-family: "Merriweather", sans-serif;
+  font-size: 12px;
+  width: 100%;
+  color: #fafbfd;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}/*# sourceMappingURL=styles.css.map */
