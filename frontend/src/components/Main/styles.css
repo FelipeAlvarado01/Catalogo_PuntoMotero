@@ -11,33 +11,25 @@
 }
 
 header {
-  background-image: url(../../assets/Image/Banner.png);
-  background-size: 100%;
-  width: 100%;
+  background-color: #282929;
 }
 header .headboard {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
   padding: 0 25px;
   width: 100%;
   flex-wrap: wrap;
 }
-header .headboard .link-section {
-  display: flex;
-  align-items: center;
-}
 header .headboard .link-section .ul-links {
-  font-family: "Inter", "Arial Narrow Bold", sans-serif;
-  font-size: 20px;
   display: flex;
-  flex-direction: row;
-  list-style: none;
-  align-items: center;
+  justify-content: space-between;
+  margin: 35px;
 }
-header .headboard .link-section .ul-links li a {
+header .headboard .link-section .ul-links a {
   text-decoration: none;
+  font-size: 20px;
   color: #ffffff;
-  padding: 0 45px;
 }
 header .headboard .img-logo {
   display: flex;
@@ -49,9 +41,12 @@ header .headboard .logo {
   cursor: pointer;
 }
 header .headboard .logo > img {
-  width: 150px;
+  width: 80px;
 }
 header .text-header {
+  background-image: url(../../assets/Image/Banner.png);
+  background-size: 100%;
+  width: 100%;
   display: flex;
   justify-content: start;
   flex-direction: column;

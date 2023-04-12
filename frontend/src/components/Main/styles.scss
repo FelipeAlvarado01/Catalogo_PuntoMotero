@@ -6,6 +6,7 @@
 $darkColor: #000000;
 $whiteColor: #ffffff;
 $grayColor: #48494b;
+$blackMenu: #282929;
 $greeColor: #1faca2;
 $yellowColor: #ebd96b;
 $typographyPoppins: 'Poppins', 'Arial Narrow Bold', sans-serif;
@@ -20,36 +21,24 @@ $typographyRoboto: 'Roboto', 'Arial Narrow Bold', sans-serif;
 }
 
 header {
-  background-image: url(../../assets/Image/Banner.png);
-  background-size: 100%;
-  width: 100%;
-
+  background-color: $blackMenu;
   .headboard {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
     padding: 0 25px;
     width: 100%;
     flex-wrap: wrap;
 
     .link-section {
-      display: flex;
-      align-items: center;
-
       .ul-links {
-        font-family: $typographyInter;
-        font-size: 20px;
-        
         display: flex;
-        flex-direction: row;
-        list-style: none;
-        align-items: center;
-
-        li {
-          a {
-            text-decoration: none;
-            color: $whiteColor;
-            padding: 0 45px;
-          }
+        justify-content: space-between;
+        margin: 35px;
+        a{
+          text-decoration: none;
+          font-size: 20px;
+          color: $whiteColor;
         }
       }
     }
@@ -66,11 +55,14 @@ header {
     }
 
     .logo>img {
-      width: 150px;
+      width: 80px;
     }
   }
 
   .text-header {
+    background-image: url(../../assets/Image/Banner.png);
+    background-size: 100%;
+    width: 100%;
     display: flex;
     justify-content: start;
     flex-direction: column;
