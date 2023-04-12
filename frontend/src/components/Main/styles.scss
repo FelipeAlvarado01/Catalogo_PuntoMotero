@@ -38,6 +38,7 @@ header {
       .ul-links {
         font-family: $typographyInter;
         font-size: 20px;
+        
         display: flex;
         flex-direction: row;
         list-style: none;
@@ -57,7 +58,7 @@ header {
       display: flex;
       justify-content: end;
       align-items: center;
-      padding: 0 45px;
+      padding: 20px;
     }
 
     .logo {
