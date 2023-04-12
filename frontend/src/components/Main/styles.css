@@ -17,7 +17,7 @@ header {
 }
 header .headboard {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(2, 1fr);
   padding: 0 25px;
   width: 100%;
   flex-wrap: wrap;
