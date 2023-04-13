@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -28,8 +29,9 @@ header .headboard .link-section .ul-links {
   margin: 35px;
 }
 header .headboard .link-section .ul-links a {
+  font-family: "Inter", "Arial Narrow Bold", sans-serif;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
   color: #ffffff;
 }
 header .headboard .img-logo {
@@ -138,6 +140,7 @@ header .text-header a button {
 
 /*Styles Pagina Home*/
 .contacto {
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -196,9 +199,124 @@ header .text-header a button {
   cursor: pointer;
 }
 
-/*Styles de Pagina Tienda/
+/*Styles de Pagina Tienda*/
+.body-store_styles {
+  background: rgb(40, 41, 41);
+  background: radial-gradient(circle, rgb(40, 41, 41) 0%, rgb(38, 39, 39) 100%);
+}
 
+.category-title {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 90px;
+}
+.category-title .retangle {
+  background-color: #db4444;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.category-title h4 {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  color: #db4444;
+  padding: 10px 15px;
+}
 
+.scrolling-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.scrolling-card {
+  flex: 0 0 auto;
+  border: solid 1px #48494b;
+  border-width: 3px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.scrolling-card h4 {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 18px;
+  padding: 0 0 15px 0;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.scrolling-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scrolling-button_container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.menu-products_container {
+  display: flex;
+  flex-direction: rowI;
+}
+.menu-products_container .scrolling-button {
+  border: none;
+  opacity: 1;
+  background-color: #db4444;
+  padding: 0 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.menu-products_container #scrolling-button_right {
+  margin-right: 80px;
+}
+.menu-products_container #scrolling-button_left {
+  margin-left: 80px;
+}
+
+.guantes-section_styles {
+  margin: 25px 80px;
+}
+.guantes-section_styles h2 {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  color: #ffffff;
+}
+.guantes-section_styles .product-container {
+  display: flex;
+  gap: 20px;
+}
+.guantes-section_styles .product-container .article-product {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.guantes-section_styles .product-container .article-product img {
+  width: 100%;
+}
+.guantes-section_styles .product-container .article-product .product-description {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 30px;
+  padding: 10px;
+}
+.guantes-section_styles .product-container .article-product .product-description h4 {
+  font-size: 20px;
+}
+.guantes-section_styles .product-container .article-product .product-description .description-product {
+  font-family: "Inter", "Arial Narrow Bold", sans-serif;
+  color: #48494b;
+  letter-spacing: 1px;
+  padding: 10px 0;
+}
+.guantes-section_styles .product-container .article-product .product-description .cost-product {
+  font-size: 25px;
+  color: #000000;
+  letter-spacing: 1px;
+  padding: 10px 0 0 0;
+}
 
 /*Styles de pagna Puntos Fisicos*/
 /*Styles de Pagina Aabout*/
