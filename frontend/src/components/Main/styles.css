@@ -285,6 +285,7 @@ header .text-header a button {
 .guantes-section_styles .product-container {
   display: flex;
   gap: 20px;
+  margin: 20px 0;
 }
 .guantes-section_styles .product-container .article-product {
   display: flex;
