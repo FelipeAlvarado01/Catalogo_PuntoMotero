@@ -203,8 +203,35 @@ header .text-header a button {
 /*Styles de pagna Puntos Fisicos*/
 /*Styles de Pagina Aabout*/
 .home-main {
-  width: 100%;
   background-color: #282929;
+  display: grid;
+  grid-template-columns: 60% auto;
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+  place-items: center;
+  color: #ffffff;
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  place-self: center;
+}
+.home-main_text {
+  grid-area: 1/1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 50px;
+  font-size: 20px;
+}
+.home-main_text h1 {
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+.home-main_img img {
+  grid-area: 1/2;
+  width: 450px;
+}
+.home-main_img-ventas {
+  grid-area: 2/1/3/3;
+  place-self: center;
 }
 
 footer {
