@@ -319,10 +319,94 @@ header .text-header a button {
 }
 
 /*Styles de pagna Puntos Fisicos*/
+.mainTiedaFisica {
+  background-color: #282929;
+  color: #ffffff;
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+}
+.mainTiedaFisica_textt {
+  display: grid;
+  grid-template-columns: 60% auto;
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+  place-items: center;
+}
+.mainTiedaFisica_textt .seccion_tutulo {
+  font-size: 20px;
+  padding: 100px;
+}
+.mainTiedaFisica_textt .seccion_tutulo h1 {
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+.mainTiedaFisica_textt .seccion_img-TiedaFisica {
+  grid-area: 1/2/3/3;
+}
+.mainTiedaFisica_textt .seccionContacto {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+.mainTiedaFisica_textt .seccionContacto img {
+  align-items: center;
+}
+.mainTiedaFisica_fotos {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 30px;
+  place-items: center;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.mainTiedaFisica_fotos .serviciosGenerales {
+  display: flex;
+  gap: 100px;
+  text-align: center;
+}
+.mainTiedaFisica_fotos .serviciosGenerales h2 {
+  font-size: 18px;
+}
+.mainTiedaFisica_fotos .serviciosGenerales p {
+  font-size: 14px;
+}
+.mainTiedaFisica_fotos .serviciosGenerales .seccionContacto_telefono :nth-child(2) {
+  font-weight: 100;
+}
+
 /*Styles de Pagina Aabout*/
 .home-main {
-  width: 100%;
   background-color: #282929;
+  display: grid;
+  grid-template-columns: 60% auto;
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+  place-items: center;
+  color: #ffffff;
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  place-self: center;
+}
+.home-main_text {
+  grid-area: 1/1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 50px;
+  font-size: 20px;
+}
+.home-main_text h1 {
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+.home-main_img img {
+  grid-area: 1/2;
+  width: 450px;
+}
+.home-main_img-ventas {
+  grid-area: 2/1/3/3;
+  place-self: center;
 }
 
 footer {
