@@ -1,3 +1,4 @@
+/*Globales*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
@@ -6,6 +7,7 @@
 $darkColor: #000000;
 $whiteColor: #ffffff;
 $grayColor: #48494b;
+$blackMenu: #282929;
 $greeColor: #1faca2;
 $yellowColor: #ebd96b;
 $typographyPoppins: 'Poppins', 'Arial Narrow Bold', sans-serif;
@@ -19,37 +21,26 @@ $typographyRoboto: 'Roboto', 'Arial Narrow Bold', sans-serif;
   box-sizing: border-box;
 }
 
+//HEADER
 header {
-  background-image: url(../../assets/Image/Banner.png);
-  background-size: 100%;
-  width: 100%;
-
+  background-color: $blackMenu;
   .headboard {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
     padding: 0 25px;
     width: 100%;
     flex-wrap: wrap;
 
     .link-section {
-      display: flex;
-      align-items: center;
-
       .ul-links {
-        font-family: $typographyInter;
-        font-size: 20px;
-        
         display: flex;
-        flex-direction: row;
-        list-style: none;
-        align-items: center;
-
-        li {
-          a {
-            text-decoration: none;
-            color: $whiteColor;
-            padding: 0 45px;
-          }
+        justify-content: space-between;
+        margin: 35px;
+        a{
+          text-decoration: none;
+          font-size: 20px;
+          color: $whiteColor;
         }
       }
     }
@@ -66,11 +57,14 @@ header {
     }
 
     .logo>img {
-      width: 150px;
+      width: 80px;
     }
   }
 
   .text-header {
+    background-image: url(../../assets/Image/Banner.png);
+    background-size: 100%;
+    width: 100%;
     display: flex;
     justify-content: start;
     flex-direction: column;
@@ -174,7 +168,7 @@ header {
     }
   }
 }
-
+/*Styles Pagina Home*/
 .contacto {
   display: flex;
   flex-direction: column;
@@ -239,6 +233,24 @@ header {
   }
 }
 
+/*Styles de Pagina Tienda/
+
+
+
+/*Styles de pagna Puntos Fisicos*/
+
+
+
+/*Styles de Pagina Aabout*/
+.home-main{
+  width: 100%;
+  background-color: $blackMenu;
+}
+
+
+
+
+//FOOTER
 footer{
   margin-top: 20px;
   background-color: $darkColor;
@@ -291,14 +303,14 @@ footer{
     }
   }
   
-.footer-copyright {
-  background-color: #50555d;
-  font-family: 'Merriweather', sans-serif;
-  font-size: 12px;
-  width: 100%;
-  color: #fafbfd;
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-}
+  .footer-copyright {
+    background-color: #50555d;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    color: #fafbfd;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
 }
