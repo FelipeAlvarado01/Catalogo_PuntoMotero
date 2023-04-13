@@ -1,3 +1,4 @@
+/*Globales*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
@@ -20,6 +21,7 @@ $typographyRoboto: 'Roboto', 'Arial Narrow Bold', sans-serif;
   box-sizing: border-box;
 }
 
+//HEADER
 header {
   background-color: $blackMenu;
   .headboard {
@@ -166,7 +168,7 @@ header {
     }
   }
 }
-
+/*Styles Pagina Home*/
 .contacto {
   display: flex;
   flex-direction: column;
@@ -231,6 +233,24 @@ header {
   }
 }
 
+/*Styles de Pagina Tienda/
+
+
+
+/*Styles de pagna Puntos Fisicos*/
+
+
+
+/*Styles de Pagina Aabout*/
+.home-main{
+  width: 100%;
+  background-color: $blackMenu;
+}
+
+
+
+
+//FOOTER
 footer{
   margin-top: 20px;
   background-color: $darkColor;
@@ -283,14 +303,14 @@ footer{
     }
   }
   
-.footer-copyright {
-  background-color: #50555d;
-  font-family: 'Merriweather', sans-serif;
-  font-size: 12px;
-  width: 100%;
-  color: #fafbfd;
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-}
+  .footer-copyright {
+    background-color: #50555d;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    color: #fafbfd;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
 }
