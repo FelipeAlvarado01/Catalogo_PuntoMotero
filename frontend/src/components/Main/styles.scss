@@ -138,6 +138,7 @@ header {
 
       img {
         width: 100%;
+        min-height: 480px;
         border-radius: 15px;
       }
 
@@ -319,8 +320,9 @@ header {
     color: $whiteColor;
   }
   .product-container{
-    display: flex;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
     margin: 20px 0;
     .article-product{
       display: flex;
@@ -328,8 +330,10 @@ header {
       background-color: $whiteColor;
       border-bottom-left-radius:  15px;
       border-bottom-right-radius: 15px;
+
       img{
         width: 100%;
+        max-height: 185px;
       }
       .product-description{
         display: flex;
@@ -342,7 +346,7 @@ header {
         .description-product{
           font-family: $typographyInter;
           color: $grayColor;
-          letter-spacing: 1px;
+          letter-spacing: 0px;
           padding: 10px 0;
         }
         .cost-product{
@@ -356,12 +360,12 @@ header {
   }
 }
 
-
 /*Styles de pagna Puntos Fisicos*/
 .mainTiedaFisica{
   background-color: $blackMenu;
   color: $whiteColor;
   font-family: $typographyPoppins;
+  padding: 80px;
   
   &_textt{
     display: grid;
@@ -371,7 +375,6 @@ header {
     place-items: center;
     .seccion_tutulo{
       font-size: 20px;
-      padding: 100px;
       h1{
         font-size: 50px;
         padding-bottom: 15px;
@@ -426,17 +429,17 @@ header {
   display: grid;
   grid-template-columns: 60% auto;
   grid-template-rows: repeat(2,auto);
-  gap: 10px;
+  gap: 30px;
   place-items: center;
   color: $whiteColor;
   font-family: $typographyPoppins;
   place-self: center;
+  padding: 80px;  
   &_text{
     grid-area: 1/1;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 50px;  
     font-size: 20px;
     h1{
       font-size: 50px;
@@ -446,7 +449,7 @@ header {
 
   &_img img{
     grid-area: 1/2;
-    width: 450px;
+    width: 100%;
   }
 
   &_img-ventas{
