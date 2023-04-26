@@ -1,0 +1,149 @@
+/*Globales*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(40, 41, 41);
+  background: radial-gradient(circle, rgb(40, 41, 41) 0%, rgb(38, 39, 39) 100%);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  margin: 10px 0;
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+}
+
+header nav {
+  background-color: #1faca2;
+  padding: 30px;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+header nav ul a {
+  font-family: "Inter", "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .title {
+  margin: 20px;
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+.container .form-section {
+  width: 70%;
+}
+.container .form-section form {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+  height: 100vh;
+}
+.container .form-section form label {
+  margin: 0 5px;
+}
+.container .form-section form input[type=text],
+.container .form-section form input[type=number],
+.container .form-section form textarea {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  background: none;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 0 10px 10px;
+  width: 100%;
+  outline: none;
+  border-bottom: 1px solid #838383;
+  color: #ffffff;
+  flex-wrap: wrap;
+  resize: none;
+}
+.container .form-section form input[type=submit] {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 22px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 300px;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.container .form-section form select {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 22px;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 1px solid #838383;
+  background: none;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 0 10px 10px;
+  width: 100%;
+  outline: none;
+  border-bottom: 1px solid #838383;
+  color: #48494b;
+  flex-wrap: wrap;
+  resize: none;
+  cursor: pointer;
+}
+
+.container-view_product {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.container-view_product h2 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+.container-view_product table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-view_product table caption {
+  margin: 20px;
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+.container-view_product table tr {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+.container-view_product table tr th {
+  padding: 20px 50px;
+}/*# sourceMappingURL=stylesAdmin.css.map */

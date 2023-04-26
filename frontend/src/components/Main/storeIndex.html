@@ -251,23 +251,24 @@
   </section>
 
   <div class="contacto">
-    <p class="promocion-text">ÚNASE A LA COMUNIDAD DE COMPRAS PARA OBTENER BENEFICIOS EN PUNTO
-      MOTERO</p>
-    <p class="solicitud-text">Estamos encantados de ayudarte en tu búsqueda de productos. Por favor,
-      déjanos tu correo electrónico a continuación y bríndanos detalles sobre tu solicitud. Nos
-      aseguraremos de atenderte de la mejor manera posible. </p>
+    <p class="promocion-text">ÚNASE A LA COMUNIDAD DE COMPRAS PARA OBTENER BENEFICIOS EN PUNTO MOTERO</p>
+    <p class="solicitud-text">Estamos encantados de ayudarte en tu búsqueda de productos. Por favor, déjanos tu correo electrónico a continuación y bríndanos detalles sobre tu solicitud. Nos aseguraremos de atenderte de la mejor manera posible. </p>
     <p class="solicitud-text">¡Gracias por elegirnos!</p>
     <br>
     <div class="form-section">
-      <form class="formulario-solicitud">
-        <input type="email" placeholder="Agrega tu correo">
-        <textarea class="block" name="textarea" id="" cols="10" rows="3"
-          placeholder="Escribe tu mensaje"></textarea>
+      <form class="formulario-solicitud" 
+      action="https://formspree.io/f/xpzekyqq"
+      method="POST">
+        <input type="email" name="Email" placeholder="Agrega tu correo">
+        <textarea class="block" name="Mensaje" id="" cols="10" rows="3"
+        placeholder="Escribe tu mensaje"></textarea>
         <br>
-        <input type="submit" value="ENVIAR">
+        <input class="button" type="submit" value="ENVIAR">
       </form>
     </div>
   </div>
+
+  <div id="alert"></div>
 
   <footer>
     <div class="redes-sociales">
@@ -300,6 +301,8 @@
   </footer>
 
   <script src="../../assets/js/scrollBehavior.js"></script>
+  <script src="../../assets/js/contacts.js"></script>
+
 </body>
 
 </html>

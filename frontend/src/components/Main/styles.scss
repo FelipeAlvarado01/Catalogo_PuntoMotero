@@ -249,13 +249,13 @@ header {
   flex-direction: row;
   margin: 30px 90px;
   .retangle{
-    background-color: $redColor ;
+    background-color: $greeColor ;
     padding: 5px 15px;
     border-radius: 5px;
   }
   h4{
     font-family: $typographyPoppins;
-    color: #db4444;
+    color: $greeColor;
     padding: 10px 15px;
   }
 }
@@ -297,7 +297,7 @@ header {
   .scrolling-button{
     border: none;
     opacity: 1;
-    background-color: $redColor;
+    background-color: $greeColor;
     padding: 0 15px;
     border-radius: 5px;
     cursor: pointer;
@@ -525,4 +525,49 @@ footer{
     justify-content: center;
     padding: 15px;
   }
+}
+
+//contact section
+
+.modal_container {
+  font-family: $typographyPoppins;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal__conten {
+  max-width: 500px;
+  max-height: 500px;
+  padding: 50px;
+  position: relative;
+  border-radius: 12px;
+  box-sizing: border-box;
+  color:$darkColor;
+  background: rgb(44,248,234);
+  background: rgb(44,248,234);
+  background: linear-gradient(90deg, rgba(44,248,234,1) 0%, rgba(4,191,174,1) 100%);
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.modal__closed{
+  font-family: $typographyInter;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--sevencolor);
 }

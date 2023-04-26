@@ -64,15 +64,19 @@
     <p class="solicitud-text">¡Gracias por elegirnos!</p>
     <br>
     <div class="form-section">
-      <form class="formulario-solicitud">
-        <input type="email" placeholder="Agrega tu correo">
-        <textarea class="block" name="textarea" id="" cols="10" rows="3"
+      <form class="formulario-solicitud" 
+      action="https://formspree.io/f/xpzekyqq"
+      method="POST">
+        <input type="email" name="Email" placeholder="Agrega tu correo">
+        <textarea class="block" name="Mensaje" id="" cols="10" rows="3"
         placeholder="Escribe tu mensaje"></textarea>
         <br>
-        <input type="submit" value="ENVIAR">
+        <input class="button" type="submit" value="ENVIAR">
       </form>
     </div>
   </div>
+
+  <div id="alert"></div>
 
   <footer>
     <div class="redes-sociales">
@@ -101,5 +105,8 @@
       </a>
     </div>
   </footer>
+
+  <script src="../../assets/js/contacts.js"></script>
+
 </body>
 </html>
