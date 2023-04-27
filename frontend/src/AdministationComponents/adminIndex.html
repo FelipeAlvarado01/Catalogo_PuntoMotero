@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesAdmin.css">
+  <title>Menú de Administrador</title>
+</head>
+<body>
+  <h1>Menú de Administrador</h1>
+  <header>
+    <nav>
+      <ul>
+        <a href="#"<span onclick="ver_productos()">Productos</span></a>
+        <a href="./crearProductoIndex.html"><span>Crear Producto</span></a>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container-view_product">
+    <section class="view_product" id="view_product">
+      <h2 class="title">Ver Productos de la Tienda</h2>
+      <table>
+        <caption>
+          La lista contiene todos los libros actualmente disponibles.
+        </caption>
+        <tr>
+          <th>Nombre</th>
+          <th>Categoria </th>
+          <th>Imagen</th>
+          <th>Precio</th>
+        </tr>
+        <tbody id="data1"></tbody>
+      </table>
+
+      <!-- div para modal -->
+      <div id="modal_container"></div>
+    </section>
+  </main>
+
+  <script src="../../src/assets/js/ProductsTables.js"></script>
+
+</body>
+</html>
+

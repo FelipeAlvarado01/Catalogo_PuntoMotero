@@ -138,6 +138,7 @@ header {
 
       img {
         width: 100%;
+        min-height: 480px;
         border-radius: 15px;
       }
 
@@ -248,13 +249,13 @@ header {
   flex-direction: row;
   margin: 30px 90px;
   .retangle{
-    background-color: $redColor ;
+    background-color: $greeColor ;
     padding: 5px 15px;
     border-radius: 5px;
   }
   h4{
     font-family: $typographyPoppins;
-    color: #db4444;
+    color: $greeColor;
     padding: 10px 15px;
   }
 }
@@ -296,7 +297,7 @@ header {
   .scrolling-button{
     border: none;
     opacity: 1;
-    background-color: $redColor;
+    background-color: $greeColor;
     padding: 0 15px;
     border-radius: 5px;
     cursor: pointer;
@@ -310,7 +311,7 @@ header {
 }
 
 .guantes-section_styles{
-  margin: 25px 80px;
+  margin: 25px 150px;
 
   h2{
     font-family: $typographyPoppins;
@@ -319,21 +320,26 @@ header {
     color: $whiteColor;
   }
   .product-container{
-    display: flex;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    margin: 70px 0 ;
     .article-product{
       display: flex;
       flex-direction: column;
       background-color: $whiteColor;
       border-bottom-left-radius:  15px;
       border-bottom-right-radius: 15px;
+
       img{
         width: 100%;
+        max-height: 452px;
+        min-height: 200px;
       }
       .product-description{
         display: flex;
         flex-direction: column;
-        margin: 40px 30px;
+        margin: 10px 10px;
         padding: 10px;
         h4{
           font-size: 20px;
@@ -341,7 +347,7 @@ header {
         .description-product{
           font-family: $typographyInter;
           color: $grayColor;
-          letter-spacing: 1px;
+          letter-spacing: 0px;
           padding: 10px 0;
         }
         .cost-product{
@@ -355,12 +361,12 @@ header {
   }
 }
 
-
 /*Styles de pagna Puntos Fisicos*/
 .mainTiedaFisica{
   background-color: $blackMenu;
   color: $whiteColor;
   font-family: $typographyPoppins;
+  padding: 80px;
   
   &_textt{
     display: grid;
@@ -370,7 +376,6 @@ header {
     place-items: center;
     .seccion_tutulo{
       font-size: 20px;
-      padding: 100px;
       h1{
         font-size: 50px;
         padding-bottom: 15px;
@@ -425,17 +430,17 @@ header {
   display: grid;
   grid-template-columns: 60% auto;
   grid-template-rows: repeat(2,auto);
-  gap: 10px;
+  gap: 30px;
   place-items: center;
   color: $whiteColor;
   font-family: $typographyPoppins;
   place-self: center;
+  padding: 80px;  
   &_text{
     grid-area: 1/1;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 50px;  
     font-size: 20px;
     h1{
       font-size: 50px;
@@ -445,7 +450,7 @@ header {
 
   &_img img{
     grid-area: 1/2;
-    width: 450px;
+    width: 100%;
   }
 
   &_img-ventas{
@@ -520,4 +525,49 @@ footer{
     justify-content: center;
     padding: 15px;
   }
+}
+
+//contact section
+
+.modal_container {
+  font-family: $typographyPoppins;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal__conten {
+  max-width: 500px;
+  max-height: 500px;
+  padding: 50px;
+  position: relative;
+  border-radius: 12px;
+  box-sizing: border-box;
+  color:$darkColor;
+  background: rgb(44,248,234);
+  background: rgb(44,248,234);
+  background: linear-gradient(90deg, rgba(44,248,234,1) 0%, rgba(4,191,174,1) 100%);
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.modal__closed{
+  font-family: $typographyInter;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--sevencolor);
 }

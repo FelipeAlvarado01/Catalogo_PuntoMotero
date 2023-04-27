@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesAdmin.css">
+  <title>Menú de Administrador</title>
+</head>
+
+<body>
+  <h1>Menú de Administrador</h1>
+  <header>
+    <nav>
+      <ul>
+        <ul>
+          <a href="./adminIndex.html"<span onclick="ver_productos()">Productos</span></a>
+          <a href="#"><span>Crear Producto</span></a>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="title">
+      <h2>Formulario para crear un nuevo producto</h2>
+      <br>
+      <p>Por favor introduzca los datos del producto.</p>
+    </div>
+    <div class="form-section">
+      <form class="formCrear" id="formCrear">
+
+        <label for="nombre">Nombre del Producto:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Agrega un nombre al producto" required>
+
+        <br><br>
+
+        <label for="categorias">Categoria del Producto:</label>
+        <select id="categoria" name="categorias" required>
+          <option value="1">Guantes</option>
+          <option value="2">Calcomanías</option>
+          <option value="3">Pijama</option>
+          <option value="4">Impermeables</option>
+          <option value="5">Defensas</option>
+          <option value="6">Maletas y Maleteros</option>
+          <option value="7">Dotación</option>
+          <option value="8">Repuestos</option>
+          <option value="9">Parillas</option>
+          <option value="10">Llantas</option>
+          <option value="11">Accesorios</option>
+          <option value="12">Luces</option>
+          <option value="13">Accesorios Cascos</option>
+          <option value="14">Lubricante</option>
+          <option value="15">Tacómetro</option>
+          <option value="16">Eléctrico</option>
+          <option value="17">Chaquetas</option>
+          <option value="18">Cascos</option>
+          <option value="19">Visores</option>
+          <option value="20">Sistema de Cascos</option>
+        </select>
+
+        <br><br>
+
+        <label for="imagen">Imagen del Producto:</label>
+        <input type="text" id="imagen" class="contro" name="" id="foto" pattern="https?://.+"
+          title="Include http://" placeholder="Agrega el url de la imagen" required>
+
+        <br><br>
+
+        <label for="descripcion">Descripción del Producto:</label>
+        <textarea id="descripcion" name="descripcion" placeholder="Agrega una descripción al producto" required></textarea>
+
+        <br><br>
+
+        <label for="precio">Precio del Producto:</label>
+        <input type="number" id="precio" name="precio" placeholder="Agrega el precio del producto" required>
+
+        <br><br>
+        <input type="submit" value="CREAR">
+      </form>
+    </div>
+  </main>
+  <script src="../../src/assets/js/productsDates.js"></script>
+
+</body>
+
+</html>

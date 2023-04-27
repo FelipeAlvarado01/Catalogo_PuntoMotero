@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
+  <script src="https://kit.fontawesome.com/02c80648f9.js" crossorigin="anonymous"></script>
   <title>Tienda Física</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
         </nav>
       </div>
       <div class="img-logo">
-        <a class="logo" href=""><img src="../../assets/Image/Logo_Circle.png" alt=""></a>
+        <a class="logo" href="index.html"><img src="../../assets/Image/Logo_Circle.png" alt=""></a>
       </div>
     </div>
   </header> 
@@ -28,29 +29,37 @@
     <section class="mainTiedaFisica_textt">
       <div class="seccion_tutulo">
         <h1> Puntos Fisicos </h1>
-        <p>Exclusive tiene más de 1 millón de productos para ofrecer, 
-          creciendo a un ritmo muy rápido. Exclusive ofrece una variedad 
-          diversa en categorías que van desde el consumidor.</p>
+        <p>
+          La tienda de Punto Motero es un lugar especializado ubicado en Madrid, Cundinamarca, que cuenta con un amplio espacio dedicado a la venta de productos relacionados con el mundo de las motocicletas. Con una cuidada selección de artículos, la tienda de Punto Motero ofrece una gran variedad de productos para los amantes de las motos.
+        </p>
+        <br>
+        <p>
+          Además de guantes, cascos y aceites, la tienda de Punto Motero ofrece una amplia variedad de accesorios para motocicletas. Desde alforjas y baúles hasta herramientas y productos de limpieza, los clientes pueden encontrar todo lo que necesitan para personalizar y mejorar su moto en la tienda de Punto Motero.
+        </p>
+        <br>
+        <p>
+          Con un diseño cuidado y una disposición ordenada de los productos, la tienda de Punto Motero ofrece un ambiente acogedor y amigable para los aficionados a las motocicletas. El personal de la tienda es amable y conocedor, brindando atención personalizada y asesoramiento experto para ayudar a los clientes a encontrar los productos adecuados según sus necesidades y preferencias.
+        </p>
       </div>
 
-      <div class="seccion_img-TiedaFisica">
+      <!--<div class="seccion_img-TiedaFisica">
         <img src="../../assets/Image/nosotros.png" alt="">
-      </div>
+      </div>-->
 
       <div class="seccionContacto">
         <div>
           <img src="../../assets/Image/Location.png" alt="">
           <div class="seccionContacto_telefono">
             <p>Calle 7#14-119</p>
-            <p>Funza, Cundinamarca</p>
+            <p>Madrid, Cundinamarca</p>
           </div>
         </div>
 
         <div>
           <img src="../../assets/Image/Phone.png" alt="">
           <div class="seccionContacto_telefono">
-            <p>(+57) 3045912620</p>
-            <p>Funza, Cundinamarca</p>
+            <p>(+57) 304 591 26 20</p>
+            <p>Madrid, Cundinamarca</p>
           </div>
         </div>
       </div>
@@ -88,15 +97,19 @@
     <p class="solicitud-text">¡Gracias por elegirnos!</p>
     <br>
     <div class="form-section">
-      <form class="formulario-solicitud">
-        <input type="email" placeholder="Agrega tu correo">
-        <textarea class="block" name="textarea" id="" cols="10" rows="3"
+      <form class="formulario-solicitud" 
+      action="https://formspree.io/f/xpzekyqq"
+      method="POST">
+        <input type="email" name="Email" placeholder="Agrega tu correo">
+        <textarea class="block" name="Mensaje" id="" cols="10" rows="3"
         placeholder="Escribe tu mensaje"></textarea>
         <br>
-        <input type="submit" value="ENVIAR">
+        <input class="button" type="submit" value="ENVIAR">
       </form>
     </div>
   </div>
+
+  <div id="alert"></div>
 
   <footer>
     <div class="redes-sociales">
@@ -105,26 +118,28 @@
       </div>
       <div>
         <ul>
-          <a href=""><i class="fa-brands fa-facebook-f fa-2x" style="color: #000000;"></i></a>
-          <a href=""><i class="fa-brands fa-instagram fa-2x" style="color: #000000;"></i></a>
+          <a href="https://www.facebook.com/PuntoMoteroMadrid/"><i class="fa-brands fa-facebook-f fa-2x" style="color: #000000;"></i></a>
+          <a href="https://www.instagram.com/puntomotero/"><i class="fa-brands fa-instagram fa-2x" style="color: #000000;"></i></a>
         </ul>
       </div>
     </div>
 
     <div class="compañia">
       <h4>Compañia</h4>
-      <a class="enlace-secciones" href="../About/aboutIndex.html">
+      <a class="enlace-secciones" href="aboutIndex.html">
         <p>Nosotros</p>
       </a>
     </div>
 
     <div class="enlace-rapido">
       <h4>Enlace rápido</h4>
-      <a class="enlace-secciones" href="../Store/storeIndex.html">
+      <a class="enlace-secciones" href="storeIndex.html">
         <p>Tienda</p>
       </a>
     </div>
   </footer>
   
+  <script src="../../assets/js/contacts.js"></script>
+
 </body>
 </html>

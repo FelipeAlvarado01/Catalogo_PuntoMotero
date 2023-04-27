@@ -112,6 +112,7 @@ header .text-header a button {
 }
 .article-favoritos .section-favortios section img {
   width: 100%;
+  min-height: 480px;
   border-radius: 15px;
 }
 .article-favoritos .section-favortios section .accesorio-text {
@@ -211,13 +212,13 @@ header .text-header a button {
   margin: 30px 90px;
 }
 .category-title .retangle {
-  background-color: #db4444;
+  background-color: #1faca2;
   padding: 5px 15px;
   border-radius: 5px;
 }
 .category-title h4 {
   font-family: "Poppins", "Arial Narrow Bold", sans-serif;
-  color: #db4444;
+  color: #1faca2;
   padding: 10px 15px;
 }
 
@@ -261,7 +262,7 @@ header .text-header a button {
 .menu-products_container .scrolling-button {
   border: none;
   opacity: 1;
-  background-color: #db4444;
+  background-color: #1faca2;
   padding: 0 15px;
   border-radius: 5px;
   cursor: pointer;
@@ -274,7 +275,7 @@ header .text-header a button {
 }
 
 .guantes-section_styles {
-  margin: 25px 80px;
+  margin: 25px 150px;
 }
 .guantes-section_styles h2 {
   font-family: "Poppins", "Arial Narrow Bold", sans-serif;
@@ -283,8 +284,10 @@ header .text-header a button {
   color: #ffffff;
 }
 .guantes-section_styles .product-container {
-  display: flex;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+  margin: 70px 0;
 }
 .guantes-section_styles .product-container .article-product {
   display: flex;
@@ -295,11 +298,13 @@ header .text-header a button {
 }
 .guantes-section_styles .product-container .article-product img {
   width: 100%;
+  max-height: 452px;
+  min-height: 200px;
 }
 .guantes-section_styles .product-container .article-product .product-description {
   display: flex;
   flex-direction: column;
-  margin: 40px 30px;
+  margin: 10px 10px;
   padding: 10px;
 }
 .guantes-section_styles .product-container .article-product .product-description h4 {
@@ -308,7 +313,7 @@ header .text-header a button {
 .guantes-section_styles .product-container .article-product .product-description .description-product {
   font-family: "Inter", "Arial Narrow Bold", sans-serif;
   color: #48494b;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   padding: 10px 0;
 }
 .guantes-section_styles .product-container .article-product .product-description .cost-product {
@@ -323,6 +328,7 @@ header .text-header a button {
   background-color: #282929;
   color: #ffffff;
   font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  padding: 80px;
 }
 .mainTiedaFisica_textt {
   display: grid;
@@ -333,7 +339,6 @@ header .text-header a button {
 }
 .mainTiedaFisica_textt .seccion_tutulo {
   font-size: 20px;
-  padding: 100px;
 }
 .mainTiedaFisica_textt .seccion_tutulo h1 {
   font-size: 50px;
@@ -382,18 +387,18 @@ header .text-header a button {
   display: grid;
   grid-template-columns: 60% auto;
   grid-template-rows: repeat(2, auto);
-  gap: 10px;
+  gap: 30px;
   place-items: center;
   color: #ffffff;
   font-family: "Poppins", "Arial Narrow Bold", sans-serif;
   place-self: center;
+  padding: 80px;
 }
 .home-main_text {
   grid-area: 1/1;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 50px;
   font-size: 20px;
 }
 .home-main_text h1 {
@@ -402,7 +407,7 @@ header .text-header a button {
 }
 .home-main_img img {
   grid-area: 1/2;
-  width: 450px;
+  width: 100%;
 }
 .home-main_img-ventas {
   grid-area: 2/1/3/3;
@@ -467,4 +472,47 @@ footer .footer-copyright {
   display: flex;
   justify-content: center;
   padding: 15px;
+}
+
+.modal_container {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal__conten {
+  max-width: 500px;
+  max-height: 500px;
+  padding: 50px;
+  position: relative;
+  border-radius: 12px;
+  box-sizing: border-box;
+  color: #000000;
+  background: rgb(44, 248, 234);
+  background: rgb(44, 248, 234);
+  background: linear-gradient(90deg, rgb(44, 248, 234) 0%, rgb(4, 191, 174) 100%);
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.modal__closed {
+  font-family: "Inter", "Arial Narrow Bold", sans-serif;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--sevencolor);
 }/*# sourceMappingURL=styles.css.map */
