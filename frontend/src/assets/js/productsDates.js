@@ -1,46 +1,56 @@
-// Datos de productos
-const productos = [
-  { id: 1, nombre: 'Producto 1', categoria: 'Categoría 1', precio: 10 },
-  { id: 2, nombre: 'Producto 2', categoria: 'Categoría 2', precio: 20 },
-  { id: 3, nombre: 'Producto 3', categoria: 'Categoría 1', precio: 15 },
-  // ... más datos de productos
-];
+//let url='mysql://root:O1L85rtc1VZKxsLjPZCq@containers-us-west-176.railway.app:6262/railway';//ver productos 
+let capturaProducto = document.getElementById("formCrear");
 
-// Obtener elementos HTML
-const menuCategorias = document.getElementById('menuCategorias');
-const areaProductos = document.getElementById('areaProductos');
+capturaProducto.addEventListener("submit", function (event) {
+  event.preventDefault();
 
-// Generar productos en el área de visualización de productos
-function generarProductos(categoria) {
-  // Limpiar área de visualización de productos
-  areaProductos.innerHTML = '';
+  const enviarJson = {};
 
-  // Filtrar productos por categoría
-  const productosFiltrados = productos.filter(producto => producto.categoria === categoria);
+  enviarJson.nombre = document.querySelector("#nombre").value;
 
-  // Generar elementos HTML para cada producto
-  productosFiltrados.forEach(producto => {
-    const productoElement = document.createElement('div');
-    productoElement.className = 'producto';
-    productoElement.innerHTML = `
-      <h3>${producto.nombre}</h3>
-      <p>Precio: $${producto.precio}</p>
-      <button onclick="agregarAlCarrito(${producto.id})">Agregar al carrito</button>
-    `;
-    areaProductos.appendChild(productoElement);
-  });
-}
+  let selectCategoria = document.querySelector('#categoria');
+  let documentoSelected = selectCategoria.selectedOptions[0];
+  enviarJson.categoria = documentoSelected.textContent;
 
-// Manejador de eventos para el menú de categorías
-menuCategorias.addEventListener('click', event => {
-  if (event.target.classList.contains('categoria')) {
-    const categoria = event.target.textContent;
-    generarProductos(categoria);
-  }
+  enviarJson.imagen = document.querySelector("#imagen").value;
+  enviarJson.descripcion = document.querySelector("#descripcion").value;
+  enviarJson.precio = Number(document.querySelector("#precio").value);
+  console.log(enviarJson);
+
+  fetch(url, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(enviarJson),
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      console.log(data);
+    })
+    .catch(console.log("no se pudo guardar los datos"));
+
+  /*let nombre = document.querySelector("#nombre").value;
+
+  let selectCategoria = document.querySelector('#categoria');
+  let documentoSelected = selectCategoria.selectedOptions[0];
+  let categoria = documentoSelected.textContent;
+
+  let imagen = document.querySelector("#imagen").value;
+  let descripcion = document.querySelector("#descripcion").value;
+  let precio = Number(document.querySelector("#precio").value);
+
+  let data = {
+    nombre: nombre,
+    categoria: categoria,
+    imagen: imagen,
+    descripcion: descripcion,
+    precio: precio
+  };
+
+  let productos = JSON.parse(localStorage.getItem("productos")) || [];
+  productos.push(data);
+  localStorage.setItem("productos", JSON.stringify(productos));
+
+  alert("Los datos se han guardado correctamente en el LocalStorage.");*/
 });
-
-// Función para agregar producto al carrito (ejemplo)
-function agregarAlCarrito(id) {
-  // Lógica para agregar producto al carrito
-  console.log(`Producto con ID ${id} agregado al carrito.`);
-}

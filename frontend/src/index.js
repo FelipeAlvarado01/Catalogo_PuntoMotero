@@ -12,11 +12,14 @@ const dbConfig = {
   user: process.env.DB_USER || "root",
   password: process.env.DB_PASSWORD || "",
   database: process.env.DB_NAME || "punto-motero",*/
-  host: "localhost",
-  port: "3306",
+  database: "railway",
+  port: "6262",
   user: "root",
-  password: "",
-  database: "punto-motero",
+  host: "containers-us-west-176.railway.app",
+  password: "O1L85rtc1VZKxsLjPZCq",
+  ssl: {
+    rejectUnauthorized: false
+  }
 };
 
 app.use(conn(mysql, dbConfig, "single"));
@@ -26,3 +29,13 @@ app.use("/", route);
 app.listen(PORT,() =>{
   console.log(`server running on port ${PORT}`);
 });
+
+
+/*CREATE TABLE productos(
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(50) ,
+  categoria VARCHAR(50) ,
+  imagen VARCHAR(250),
+  descripcion VARCHAR(500),
+  precio BIGINT
+);*/

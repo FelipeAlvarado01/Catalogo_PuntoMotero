@@ -12,8 +12,9 @@
   <header>
     <nav>
       <ul>
-        <a href="./adminIndex.html">Productos</a>
-        <a href="#">Crear Producto</a>
+        <ul>
+          <a href="./adminIndex.html"<span onclick="ver_productos()">Productos</span></a>
+          <a href="#"><span>Crear Producto</span></a>
       </ul>
     </nav>
   </header>
@@ -25,7 +26,7 @@
       <p>Por favor introduzca los datos del producto.</p>
     </div>
     <div class="form-section">
-      <form>
+      <form class="formCrear" id="formCrear">
 
         <label for="nombre">Nombre del Producto:</label>
         <input type="text" id="nombre" name="nombre" placeholder="Agrega un nombre al producto" required>
@@ -33,7 +34,7 @@
         <br><br>
 
         <label for="categorias">Categoria del Producto:</label>
-        <select id="categoria_id" name="categorias" required>
+        <select id="categoria" name="categorias" required>
           <option value="1">Guantes</option>
           <option value="2">Calcomanías</option>
           <option value="3">Pijama</option>
@@ -59,7 +60,7 @@
         <br><br>
 
         <label for="imagen">Imagen del Producto:</label>
-        <input type="text" class="contro" name="" id="foto" pattern="https?://.+"
+        <input type="text" id="imagen" class="contro" name="" id="foto" pattern="https?://.+"
           title="Include http://" placeholder="Agrega el url de la imagen" required>
 
         <br><br>
@@ -77,6 +78,7 @@
       </form>
     </div>
   </main>
+  <script src="../../src/assets/js/productsDates.js"></script>
 
 </body>
 
