@@ -1,4 +1,4 @@
-let url = 'mysql://root:O1L85rtc1VZKxsLjPZCq@containers-us-west-176.railway.app:6262/railway';//ver productos 
+let url = 'https://catalogopuntomotero-production.up.railway.app/getAll';//ver productos 
 
 function ver_productos() {
   /* metodo fetch trae productos por Get */
@@ -8,7 +8,7 @@ function ver_productos() {
 
   /* pinta todos los productos en el Dom */
   const mostrarData = (data) => {
-    console.log(data)
+    console.log(data);
     let body = ""
     for (var i = 0; i < data.length; i++) {
       let id = data[i].id
