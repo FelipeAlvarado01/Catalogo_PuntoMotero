@@ -27,5 +27,5 @@ capturaProducto.addEventListener("submit", function (event) {
   localStorage.setItem("productos", JSON.stringify(productos));
   productId++;
 
-  alert("Los datos se han guardado correctamente en el LocalStorage.");
+  alert("Los datos se han guardado correctamente");
 });
