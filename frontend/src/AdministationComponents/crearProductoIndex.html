@@ -25,57 +25,57 @@
       <p>Por favor introduzca los datos del producto.</p>
     </div>
     <div class="form-section">
-      <form class="formCrear" id="formCrear">
+      <form class="formCrear" id="formCrear" action="https://catalogopuntomotero-production.up.railway.app/createProducto" method="POST">
 
         <label for="nombre">Nombre del Producto:</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Agrega un nombre al producto" required>
+        <input type="text" id="nombre" name="nombre" placeholder="Agrega un nombre al producto">
 
         <br><br>
 
         <label for="categorias">Categoria del Producto:</label>
-        <select id="categoria" name="categorias" required>
-          <option value="1">Guantes</option>
-          <option value="2">Calcomanías</option>
-          <option value="3">Pijamas</option>
-          <option value="4">Impermeables</option>
-          <option value="5">Defensas</option>
-          <option value="6">Maletas y Maleteros</option>
-          <option value="7">Dotación</option>
-          <option value="8">Repuestos</option>
-          <option value="9">Parillas</option>
-          <option value="10">Llantas</option>
-          <option value="11">Accesorios</option>
-          <option value="12">Luces</option>
-          <option value="13">Accesorios Cascos</option>
-          <option value="14">Lubricante</option>
-          <option value="15">Tacómetro</option>
-          <option value="16">Eléctrico</option>
-          <option value="17">Chaquetas</option>
-          <option value="18">Cascos</option>
-          <option value="19">Visores</option>
-          <option value="20">Sistema de Cascos</option>
+        <select id="categoria" name="categorias" >
+          <option value="Guantes">Guantes</option>
+          <option value="Calcomanías">Calcomanías</option>
+          <option value="Pijamas">Pijamas</option>
+          <option value="Impermeables">Impermeables</option>
+          <option value="Defensas">Defensas</option>
+          <option value="Maletas y Maleteros">Maletas y Maleteros</option>
+          <option value="Dotación">Dotación</option>
+          <option value="Repuestos">Repuestos</option>
+          <option value="Parillas">Parillas</option>
+          <option value="Llantas">Llantas</option>
+          <option value="Accesorios">Accesorios</option>
+          <option value="Luces">Luces</option>
+          <option value="Accesorios Cascos">Accesorios Cascos</option>
+          <option value="Lubricante">Lubricante</option>
+          <option value="Tacómetro">Tacómetro</option>
+          <option value="Eléctrico">Eléctrico</option>
+          <option value="Chaquetas">Chaquetas</option>
+          <option value="Cascos">Cascos</option>
+          <option value="Visores">Visores</option>
+          <option value="Sistema de Cascos">Sistema de Cascos</option>
         </select>
 
         <br><br>
 
         <label for="imagen">Imagen del Producto:</label>
-        <input input type="text" id="imagen" pattern="https?://.+" title="Include http://" placeholder="Agregue el URL de una imagen" required>
+        <input type="text" id="imagen" name="imagen" pattern="https?://.+\.(png|jpe?g|gif)" title="Include http://" placeholder="Agregue el URL de una imagen" >
         <br><br>
 
         <label for="descripcion">Descripción del Producto:</label>
-        <textarea id="descripcion" name="descripcion" placeholder="Agrega una descripción al producto" required></textarea>
+        <textarea id="descripcion" name="descripcion" placeholder="Agrega una descripción al producto" ></textarea>
 
         <br><br>
 
         <label for="precio">Precio del Producto:</label>
-        <input type="number" id="precio" name="precio" placeholder="Agrega el precio del producto" required>
+        <input type="number" id="precio" name="precio" placeholder="Agrega el precio del producto" >
 
         <br><br>
         <input type="submit" value="CREAR">
       </form>
     </div>
   </main>
-  <script src="../../src/assets/js/productsDates.js"></script>
+  <!--<script src="../../src/assets/js/productsDates.js"></script>-->
 
 </body>
 
