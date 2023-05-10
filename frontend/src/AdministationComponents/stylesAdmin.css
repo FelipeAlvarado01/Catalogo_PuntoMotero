@@ -119,6 +119,34 @@ header nav ul a {
   background-color: #ffffff;
   display: flex;
   justify-content: center;
+  /*table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    caption{
+      margin: 20px;
+      font-family: $typographyPoppins;
+      font-size: 20px;
+      color: $darkColor;
+    }
+    tr{
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+      font-family: $typographyPoppins;
+      font-size: 20px;
+      color: $darkColor;
+    }
+
+
+    th, td {
+      width: 25%;
+      text-align: left;
+      padding: 8px;
+
+    }
+  }*/
 }
 .container-view_product h2 {
   display: flex;
@@ -128,22 +156,90 @@ header nav ul a {
   font-size: 20px;
   color: #000000;
 }
-.container-view_product table {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.container-view_product table caption {
+.container-view_product caption {
   margin: 20px;
   font-family: "Poppins", "Arial Narrow Bold", sans-serif;
   font-size: 20px;
   color: #000000;
 }
-.container-view_product table tr {
+.container-view_product table {
+  width: 100%;
+  border-collapse: collapse;
   font-family: "Poppins", "Arial Narrow Bold", sans-serif;
   font-size: 20px;
   color: #000000;
 }
-.container-view_product table tr th {
-  padding: 20px 50px;
+.container-view_product th,
+.container-view_product td {
+  width: 10%;
+  text-align: left;
+  padding: 10px 50px;
+}
+.container-view_product th {
+  background-color: #f2f2f2;
+}
+
+.modal_container {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 20px;
+}
+
+.modal__closed {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--sevencolor);
+}
+
+.modal__conten {
+  font-family: "Poppins", "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  max-width: 500px;
+  max-height: 500px;
+  padding: 50px;
+  position: relative;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fafbfd;
+  background: rgb(40, 41, 41);
+  background: radial-gradient(circle, rgb(40, 41, 41) 0%, rgb(38, 39, 39) 100%);
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.modal__conten h3,
+.modal__conten h4 {
+  font-size: 20px;
+  font-family: var(--tittlefont);
+}
+
+.modal_img {
+  display: flex;
+  margin-left: 50px;
+}
+
+.modal_img p {
+  background-color: var(--fourcolor);
+  border: var(--sevencolor) 1px solid;
+  border-radius: 10px;
+  margin: 5px;
+  padding-top: 5px;
+}
+
+.modal_p {
+  display: block;
 }/*# sourceMappingURL=stylesAdmin.css.map */
