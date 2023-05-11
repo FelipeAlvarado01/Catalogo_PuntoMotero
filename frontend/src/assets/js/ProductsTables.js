@@ -1,44 +1,35 @@
-let url = 'https://catalogopuntomotero-production.up.railway.app/getAll';//ver productos 
+//let url = 'https://catalogopuntomotero-production.up.railway.app/obtenerProductos';//ver productos 
+import axios from 'axios';
+
+const url = 'https://catalogopuntomotero-production.up.railway.app/getProductos';
 
 function ver_productos() {
-  /* metodo fetch trae productos por Get */
-  /* fetch(url)
-     .then(data => mostrarData(data))
-   const mostrarData = (data) => {
-     console.log(data);
-     let body = ""
-     for (var i = 0; i < data.length; i++) {
-       let id = data[i].id
-       console.log(id)
-       body +=
-         `<tr>
-       <th>${data[i].id}</th>
-       <th>${data[i].nombre}</th>
-       <td>${data[i].categoria}</td>
-       <td>${data[i].imagen}</td>
-       <td>${data[i].descripcion}</td>
-       <td>${data[i].precio}</td>
-     </tr>`
-     }
-     document.getElementById('data1').innerHTML = body;
-   }*/
 
-  const productos = JSON.parse(localStorage.getItem("productos"));
-  let body = ""
-  productos.forEach((producto) => {
-    body +=
-      `<tr>
-  <th>${producto.id}</th>
-  <th>${producto.nombre}</th>
-  <td>${producto.categoria}</td>
-  <td>${producto.precio}</td>
-  <td><button type="button" onclick="pintarId(${producto.id})">Ver mas</button></td>
-</tr>`
-    document.getElementById('data1').innerHTML = body;
-  });
+  axios.get(url)
+    .then(response => {
+      const data = response.data;
+      console.log(data);
+      let body = ""
+      for (var i = 0; i < data.length; i++) {
+        let id = data[i].id
+        console.log(id)
+        body +=
+          `<tr>
+          <th>${data[i].id}</th>
+          <th>${data[i].nombre}</th>
+          <td>${data[i].categoria}</td>
+          <td>${data[i].precio}</td>
+        </tr>`
+      }
+      document.getElementById('data1').innerHTML = body;
+    })
+    .catch(error => {
+      console.error(error);
+    });
 
-  console.log("creando tabla");
 }
+
+//////////////////////////////////////////////////////////////////////////
 
 let modal_container = document.getElementById("modal_container");
 
