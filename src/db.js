@@ -7,9 +7,5 @@ export const pool = createPool({
   password: DB_PASSWORD,
   port: DB_PORT,
   database: DB_NAME
-  /*host: 'sql254.main-hosting.eu',
-  user:'moterouser',
-  password: 'mD!+m5t3',
-  database: '	puntomotero'*/
 });
 

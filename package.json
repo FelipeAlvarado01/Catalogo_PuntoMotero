@@ -25,7 +25,8 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-myconnection": "^1.0.4",
-    "mysql2": "^3.2.4"
+    "mysql2": "^3.2.4",
+    "sweetalert": "^2.1.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"

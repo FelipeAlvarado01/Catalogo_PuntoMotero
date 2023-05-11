@@ -25,7 +25,7 @@
       <p>Por favor introduzca los datos del producto.</p>
     </div>
     <div class="form-section">
-      <form class="formCrear" id="formCrear" action="https://catalogopuntomotero-production.up.railway.app/createProducto" method="POST">
+      <form class="formCrear" id="formCrear">
 
         <label for="nombre">Nombre del Producto:</label>
         <input type="text" id="nombre" name="nombre" placeholder="Agrega un nombre al producto">
@@ -42,7 +42,7 @@
           <option value="Maletas y Maleteros">Maletas y Maleteros</option>
           <option value="Dotación">Dotación</option>
           <option value="Repuestos">Repuestos</option>
-          <option value="Parillas">Parillas</option>
+          <option value="Parrillas">Parrillas</option>
           <option value="Llantas">Llantas</option>
           <option value="Accesorios">Accesorios</option>
           <option value="Luces">Luces</option>
@@ -59,7 +59,7 @@
         <br><br>
 
         <label for="imagen">Imagen del Producto:</label>
-        <input type="text" id="imagen" name="imagen" pattern="https?://.+\.(png|jpe?g|gif)" title="Include http://" placeholder="Agregue el URL de una imagen" >
+        <input type="text" id="imagen" name="imagen" pattern="https?://" title="Include http://" placeholder="Agregue el URL de una imagen" >
         <br><br>
 
         <label for="descripcion">Descripción del Producto:</label>
@@ -75,6 +75,8 @@
       </form>
     </div>
   </main>
+
+  <script src="../assets/js/productsDates.js"></script>
 </body>
 
 </html>

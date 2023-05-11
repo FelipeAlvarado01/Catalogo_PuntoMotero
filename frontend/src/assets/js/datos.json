@@ -1,0 +1,170 @@
+[
+  {
+    "nombre": "Guantes Alpinestars Cooper",
+    "categoria": "Guantes",
+    "imagen": "https://zriders.com.co/wp-content/uploads/2022/05/GT_105.jpg",
+    "descripcion": "Este guante, incorpora una protección dura y resistente en los nudillos y una palma de gamuza sintética completa para lograr altos niveles de durabilidad",
+    "precio": 45000
+  },
+  {
+    "nombre": "Guantes Medio Dedo",
+    "categoria": "Guantes",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_848960-MCO51633771013_092022-V.jpg",
+    "descripcion": "Guante con diseño moderno, hecho en maya, contextura gruesa para proteger la mano y dar un mejor confort que puede asegurar una asepsia saludable",
+    "precio": 45000
+  },
+  {
+    "nombre": "Guantes City",
+    "categoria": "Guantes",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_875271-MCO43758452803_102020-V.jpg",
+    "descripcion": "Guantes con protección en los nudillos, fabricados con un material tactil, suave y con elementos refractantes.",
+    "precio": 45000
+  },
+  {
+    "nombre": "Calcomanias multimarca a 1000",
+    "categoria": "Calcomanías",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_978127-MCO53705565718_022023-V.jpg",
+    "descripcion": "Surtido de calcomanias de diferentes marcas al mismo precio para estilizar tu moto a tu propio gusto.",
+    "precio": 15000
+  },
+  {
+    "nombre": "Cinta de rin (Redonda)",
+    "categoria": "Calcomanías",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_820736-MCO44133471632_112020-V.jpg",
+    "descripcion": "Calcomanias redondas para motocicletas, decorativas, refractantes que se pueden encontrar en varias presentaciones.",
+    "precio": 20000
+  },
+  {
+    "nombre": "Calcomanias tanque pequeño",
+    "categoria": "Calcomanías",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_932704-MCO46587393885_072021-V.jpg",
+    "descripcion": "Calcomania para la protección de la cubierta del tanque de la motocicleta, reluciente, brillante y duradera con presentaciones diferentes.",
+    "precio": 20000
+  },
+  {
+    "nombre": "Pijama de alto cilindraje",
+    "categoria": "Pijamas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_828425-MCO44574500085_012021-O.jpg",
+    "descripcion": "Fabricada con materiales vinilicos, esta pijama protege la maquina de las inclemencias del clima y del ambiente manteniedola en perfecto estado.",
+    "precio": 65000
+  },
+  {
+    "nombre": "Impermeable Sudadera Over fino",
+    "categoria": "Impermeables",
+    "imagen": "https://i.linio.com/p/00f97892b451417a3a623c3e91662e22-product.jpg",
+    "descripcion": "Impermeable de doble tapa, flexible, reflectiva y comoda para los días de lluvia.",
+    "precio": 65000
+  },
+  {
+    "nombre": "Defensas Stunt",
+    "categoria": "Defensas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_898708-MCO44772356385_022021-O.jpg",
+    "descripcion": "Elaborado con tubos de CAL y soporte de caucho para cualquier impacto, no se podría sentir mas seguro.",
+    "precio": 150000
+  },
+  {
+    "nombre": "Maleta Rigida Grande",
+    "categoria": "Maletas y Maleteros",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_877525-MCO48241425596_112021-O.jpg",
+    "descripcion": "Elaborado con fibra de carbono y reforzado con tubos de aluminio refractantes, asegurara que todo lo delicado llegue tal y como lo guardaste al empezar tu viaje.",
+    "precio": 150000
+  },
+  {
+    "nombre": "Microfibra Importada",
+    "categoria": "Dotación",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_947060-MCO42747542761_072020-O.jpg",
+    "descripcion": "Microfibra para la limpieza tecnomecánica de las motocicletas. Ni manchas ni rayones.",
+    "precio": 43000
+  },
+  {
+    "nombre": "Caucho Campana",
+    "categoria": "Repuestos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_867966-MCO31555378854_072019-O.jpg",
+    "descripcion": "Repuesto de mayor alcance que garantiza un tiempo de vida útil mas duradero gracias a su material de primera calidad.",
+    "precio": 13000
+  },
+  {
+    "nombre": "Parrilla Pulsar 180-220",
+    "categoria": "Parrillas",
+    "imagen": "https://www.fpmoto.com/pub/media/catalog/product/cache/26c9519530ea7d00ac31665297e99cab/P/N-7-18-7-18/parrilla-para-pulsar.jpg",
+    "descripcion": "Parrilla pulsar para modelos 180 y 220. Adición para carga o un pasajero extra en us viajes.",
+    "precio": 200000
+  },
+  {
+    "nombre": "Llanta 120/70/12 Kontrol",
+    "categoria": "Llantas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_985949-MCO52709752031_122022-O.jpg",
+    "descripcion": "Llanta para modelo kontrol de 6 lonas.",
+    "precio": 130000
+  },
+  {
+    "nombre": "Llaveros",
+    "categoria": "Accesorios",
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/098/335/products/141-43071d9968da5118b015950181728370-640-0.png",
+    "descripcion": "Llavero para motos duradero y seguro que muestra tu pasión por las motocicletas.",
+    "precio": 10000
+  },
+  {
+    "nombre": "Cinta Led",
+    "categoria": "Luces",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_719293-MLA42826592689_072020-V.jpg",
+    "descripcion": "Cintas LED para motos: accesorios luminosos para personalizar y hacer visible tu moto en la oscuridad.",
+    "precio": 35000
+  },
+  {
+    "nombre": "Pinlock",
+    "categoria": "Accesorios Cascos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_939378-MCO31247718598_062019-O.jpg",
+    "descripcion": "El Pinlock para cascos de motos es una lámina antiempañante que se adhiere al interior del visor, evitando que se empañe durante la conducción en condiciones de humedad y frío.",
+    "precio": 45000
+  },
+  {
+    "nombre": "Tacometro GIXXER 150",
+    "categoria": "Tacómetro",
+    "imagen": "https://gfmotors.cl/wp-content/uploads/2022/07/3-102.png",
+    "descripcion": "El tacómetro GIXXER 150 es una opción precisa y confiable para mantener un registro de la velocidad de tu moto.",
+    "precio": 75000
+  },
+  {
+    "nombre": "Aceites",
+    "categoria": "Lubricante",
+    "imagen": "https://www.bicimotos.com.mx/blog/wp-content/uploads/2021/03/como-elegir-mejor-aceite-de-moto.jpg",
+    "descripcion": "Aceites para moto de alta calidad, diseñados para mantener el motor protegido y en óptimas condiciones.",
+    "precio": 55000
+  },
+  {
+    "nombre": "Fusible Vidrio Corto/15",
+    "categoria": "Eléctrico",
+    "imagen": "https://www.didacticaselectronicas.com/images/stories/virtuemart/product/FC-0.1A.jpg",
+    "descripcion": "El fusible de vidrio corto de 15 amperios es un componente esencial para proteger el circuito eléctrico de tu motocicleta, brindando una mayor seguridad y fiabilidad en su funcionamiento.",
+    "precio": 55000
+  },
+  {
+    "nombre": "Chaqueta de Proteccion XXXL",
+    "categoria": "Chaquetas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_990454-CBT51293362697_082022-O.jpg",
+    "descripcion": "Chaqueta de protección XXXL para motos, diseñada para brindar seguridad y comodidad al conductor. Fabricada con materiales resistentes y duraderos, ofrece una excelente protección contra el viento y la lluvia.",
+    "precio": 95000
+  },
+  {
+    "nombre": "Casco LS2",
+    "categoria": "Cascos",
+    "imagen": "https://asturias.com.co/wp-content/uploads/2021/12/IMG_52D1E1-F2F9D8-478577-7533AA-54BDA8-DEED89.jpeg",
+    "descripcion": "Casco LS2: un casco de alta calidad y durabilidad, diseñado para brindar la máxima protección y comodidad al conductor de motocicletas.",
+    "precio": 175000
+  },
+  {
+    "nombre": "Visor AGV",
+    "categoria": "Visores",
+    "imagen": "https://percentmotolab.com/wp-content/uploads/2020/08/visor-gt2-iridium-blue.jpg",
+    "descripcion": "Protege tu visor AGV con nuestros accesorios de alta calidad y resistencia. Encuentra una amplia variedad de opciones para mantener tu visibilidad y seguridad mientras conduces.",
+    "precio": 35000
+  },
+  {
+    "nombre": "Sistema HRO",
+    "categoria": "Sistema de Cascos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_917313-MCO47817362478_102021-O.jpg",
+    "descripcion": "Accesorios para cascos HRO: mejora tu experiencia de conducción con nuestra selección de accesorios para el sistema de cascos HRO, incluyendo viseras, auriculares y micrófonos.",
+    "precio": 75000
+  }
+]

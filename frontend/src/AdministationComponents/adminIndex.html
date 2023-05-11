@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="stylesAdmin.css">
   <title>Menú de Administrador</title>
 </head>
+
 <body>
   <h1>Menú de Administrador</h1>
   <header>
     <nav>
       <ul>
-        <a href="#"<span onclick="ver_productos()">Productos</span></a>
+        <a href="#" <span onclick="ver_productos()">Productos</span></a>
         <a href="./crearProductoIndex.html"><span>Crear Producto</span></a>
       </ul>
     </nav>
@@ -19,6 +21,33 @@
   <main class="container-view_product">
     <section class="view_product" id="view_product">
       <h2 class="title">Ver Productos de la Tienda</h2>
+
+      <label for="categoria">Filtrar por categoría:</label>
+      <select id="categoria" onchange="filtrarProductos()">
+        <option value="Guantes">Guantes</option>
+        <option value="Calcomanías">Calcomanías</option>
+        <option value="Pijamas">Pijamas</option>
+        <option value="Impermeables">Impermeables</option>
+        <option value="Defensas">Defensas</option>
+        <option value="Maletas y Maleteros">Maletas y Maleteros</option>
+        <option value="Dotación">Dotación</option>
+        <option value="Repuestos">Repuestos</option>
+        <option value="Parrillas">Parrillas</option>
+        <option value="Llantas">Llantas</option>
+        <option value="Accesorios">Accesorios</option>
+        <option value="Luces">Luces</option>
+        <option value="Accesorios Cascos">Accesorios Cascos</option>
+        <option value="Lubricante">Lubricante</option>
+        <option value="Tacómetro">Tacómetro</option>
+        <option value="Eléctrico">Eléctrico</option>
+        <option value="Chaquetas">Chaquetas</option>
+        <option value="Cascos">Cascos</option>
+        <option value="Visores">Visores</option>
+        <option value="Sistema de Cascos">Sistema de Cascos</option>
+      </select>
+
+      <button type="button" onclick="mostrarTodos()">Mostrar todos los productos</button>
+
       <table>
         <caption>
           La lista contiene todos los productos actualmente disponibles.
@@ -29,6 +58,9 @@
           <th>Categoria </th>
           <th>Precio</th>
           <th>Ver Más</th>
+          <th>Borrar</th>
+          <th>Editar</th>
+
         </tr>
         <tbody id="data1"></tbody>
       </table>
@@ -38,8 +70,8 @@
     </section>
   </main>
 
-  <script type="module" src="../../src/assets/js/ProductsTables.js" crossorigin="anonymous"></script>
+  <script src="../../src/assets/js/ProductsTables.js"></script>
 
 </body>
-</html>
 
+</html>
