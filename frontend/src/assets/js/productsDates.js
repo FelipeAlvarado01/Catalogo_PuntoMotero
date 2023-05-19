@@ -1,5 +1,5 @@
 let productId = 1;
-let productos = [];
+let productos = JSON.parse(localStorage.getItem("productos")) || [];
 let datosCargados = JSON.parse(localStorage.getItem("datosCargados")) || false;
 
 // Cargar los datos del archivo JSON
@@ -33,7 +33,7 @@ function cargarDatos() {
   if (!datosCargados) {
     fetch('../../../../frontend/src/assets/js/datos.json')
       .then(response => response.json())
-      .then(data => {
+      .then(productosJSON => {
         let productos = JSON.parse(localStorage.getItem("productos")) || [];
 
         // Obtener el último id asignado
@@ -43,7 +43,7 @@ function cargarDatos() {
         }
 
         // Asignar un ID a cada producto y agregarlo al array de productos
-        data.forEach(producto => {
+        productosJSON.forEach(producto => {
           producto.id = ++lastId;
           productos.push(producto);
         });
@@ -57,5 +57,4 @@ function cargarDatos() {
       });
   }
 }
-
 

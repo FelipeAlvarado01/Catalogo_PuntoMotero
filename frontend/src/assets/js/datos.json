@@ -4,35 +4,105 @@
     "categoria": "Guantes",
     "imagen": "https://zriders.com.co/wp-content/uploads/2022/05/GT_105.jpg",
     "descripcion": "Este guante, incorpora una protección dura y resistente en los nudillos y una palma de gamuza sintética completa para lograr altos niveles de durabilidad",
-    "precio": 45000
+    "precio": 150000
   },
   {
     "nombre": "Guantes Medio Dedo",
     "categoria": "Guantes",
     "imagen": "https://http2.mlstatic.com/D_NQ_NP_848960-MCO51633771013_092022-V.jpg",
     "descripcion": "Guante con diseño moderno, hecho en maya, contextura gruesa para proteger la mano y dar un mejor confort que puede asegurar una asepsia saludable",
-    "precio": 45000
+    "precio": 75000
   },
   {
     "nombre": "Guantes City",
     "categoria": "Guantes",
     "imagen": "https://http2.mlstatic.com/D_NQ_NP_875271-MCO43758452803_102020-V.jpg",
     "descripcion": "Guantes con protección en los nudillos, fabricados con un material tactil, suave y con elementos refractantes.",
-    "precio": 45000
+    "precio": 120000
+  },
+  {
+    "nombre": "Guantes Maranthan de cuero",
+    "categoria": "Guantes",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_647162-MCO44925532475_022021-O.jpg",
+    "descripcion": "Guante fabricados con cuero cien por ciento nacional, forraje interno de algodon el cual provee protección térmica, tactil y brinda bastante comoidad.",
+    "precio": 100000
+  },
+  {
+    "nombre": "Guantes SP8 de cuero",
+    "categoria": "Guantes",
+    "imagen": "https://m.media-amazon.com/images/I/71cphtikksL.__AC_SY445_SX342_QL70_ML2_.jpg",
+    "descripcion": "Su fabricación en cuero garantiza protección en los nudillos y los antebrazos brindando protección térmica, protección en las manos y dedos.",
+    "precio": 150000
+  },
+  {
+    "nombre": "Guantes impermeables MADBIKE",
+    "categoria": "Guantes",
+    "imagen": "https://m.media-amazon.com/images/I/71pvBGG-yzL.jpg",
+    "descripcion": "Cuenta con una protección dura en los nudillos, dorso y mano junto con un forrado que brinda una sensación de calidez y confort en ambientes humedos",
+    "precio": 160000
+  },
+  {
+    "nombre": "Guantes Over AX 100",
+    "categoria": "Guantes",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_958003-MCO54057190646_022023-V.jpg",
+    "descripcion": "Guante con protección en los nudillos fabricado con un material de velcro fuerte y policarbonato forrado",
+    "precio": 80000
+  },
+  {
+    "nombre": "Guantes Over",
+    "categoria": "Guantes",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_716400-MCO45858531348_052021-O.jpg",
+    "descripcion": "Fabricado con hilado de nylon, lona antifricción y forrado de poliester suave para las rutas cotidianas del motociclista día a día",
+    "precio": 65000
+  },
+  {
+    "nombre": "Guantes Fox",
+    "categoria": "Guantes",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_699827-MCO69175685952_052023-O.jpg",
+    "descripcion": "Guantes con diseño fleible hechos para el alto rendimiento del jinete con un agarre comodo y versatil",
+    "precio": 120000
   },
   {
     "nombre": "Calcomanias multimarca a 1000",
     "categoria": "Calcomanías",
     "imagen": "https://http2.mlstatic.com/D_NQ_NP_978127-MCO53705565718_022023-V.jpg",
     "descripcion": "Surtido de calcomanias de diferentes marcas al mismo precio para estilizar tu moto a tu propio gusto.",
-    "precio": 15000
+    "precio": 1000
   },
   {
     "nombre": "Cinta de rin (Redonda)",
     "categoria": "Calcomanías",
     "imagen": "https://http2.mlstatic.com/D_NQ_NP_820736-MCO44133471632_112020-V.jpg",
     "descripcion": "Calcomanias redondas para motocicletas, decorativas, refractantes que se pueden encontrar en varias presentaciones.",
-    "precio": 20000
+    "precio": 60000
+  },
+  {
+    "nombre": "Cinta de rin (Media Luna)",
+    "categoria": "Calcomanías",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_685216-MCO51829135729_102022-V.jpg",
+    "descripcion": "Calcomanias en media luna para rines de motocicleta, refractantes y resistentes",
+    "precio": 60000
+  },
+  {
+    "nombre": "Cinta de rin (Luna Pequeña)",
+    "categoria": "Calcomanías",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_719573-CBT52617481115_112022-V.jpg",
+    "descripcion": "Cinta de rin resistente y refractante para rines de motocicleta",
+    "precio": 80000
+  },
+  {
+    "nombre": "Calcomanias Siliconadas",
+    "categoria": "Calcomanías",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_963827-MCO45298671858_032021-O.jpg",
+    "descripcion": "Calcomanias protegidas con un material siliconado sumamente resistente y con diversas presentaciones en tamaño, color y forma",
+    "precio": 10000
+  },
+  {
+    "nombre": "Calcomanias Tornasol",
+    "categoria": "Calcomanías",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_695928-MCO45241185133_032021-O.jpg",
+    "descripcion": "Kit para motocicleta diseñado de manera digital, laminado y realizado con vinilos para garantizar una vida util de tres años",
+    "precio": 70000
   },
   {
     "nombre": "Calcomanias tanque pequeño",
@@ -42,32 +112,207 @@
     "precio": 20000
   },
   {
+    "nombre": "Calcomanias rosario virgen maria",
+    "categoria": "Calcomanías",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_754193-MCO50145945635_052022-O.jpg",
+    "descripcion": "Calcomania con diseño de rosario de la virgen maría",
+    "precio": 5000
+  },
+  {
     "nombre": "Pijama de alto cilindraje",
     "categoria": "Pijamas",
     "imagen": "https://http2.mlstatic.com/D_NQ_NP_828425-MCO44574500085_012021-O.jpg",
     "descripcion": "Fabricada con materiales vinilicos, esta pijama protege la maquina de las inclemencias del clima y del ambiente manteniedola en perfecto estado.",
-    "precio": 65000
+    "precio": 120000
+  },
+  {
+    "nombre": "Pijama gruesa FLASH con maletero",
+    "categoria": "Pijamas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_842433-MCO48689297193_122021-O.jpg",
+    "descripcion": "Protector vulcanizado con espacio para maletero totalmente impermeable y refractante.",
+    "precio": 160000
+  },
+  {
+    "nombre": "Pijama gruesa FLASH sin maletero",
+    "categoria": "Pijamas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_852348-MCO48689242462_122021-O.jpg",
+    "descripcion": "Protector vulcanizado totalmente impermeable y refractante.",
+    "precio": 140000
+  },
+  {
+    "nombre": "Pijama delgada FLASH con maletero",
+    "categoria": "Pijamas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_643480-MCO48027033204_102021-O.jpg",
+    "descripcion": "Pijama para motocicletas principalmente de bajo cilindraje con maletero totalmente impermeable y hecha para proteger la maquina de la lluvia y el sol",
+    "precio": 50000
+  },
+  {
+    "nombre": "Pijama delgada FLASH sin maletero",
+    "categoria": "Pijamas",
+    "imagen": "https://tiendabi.com/wp-content/uploads/2021/10/Pijama-para-moto-impermeable-TIENDABI-accesorios-para-Moto.jpg",
+    "descripcion": "Pijama para motocicletas principalmente de bajo cilindraje totalmente impermeable y hecha para proteger la maquina de la lluvia y el sol",
+    "precio": 35000
+  },
+  {
+    "nombre": "Pijama SCOOTER con maletero",
+    "categoria": "Pijamas",
+    "imagen": "https://i.linio.com/p/28230e950e05212e5573ca74a8bc216b-product.jpg",
+    "descripcion": "Protector para motocicletas de modelo SCOOTER y maletero para los desvarios del clima y el ambiente",
+    "precio": 160000
+  },
+  {
+    "nombre": "Pijama SCOOTER sin maletero",
+    "categoria": "Pijamas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_896800-MCO41992346290_052020-O.jpg",
+    "descripcion": "Protector para motocicletas de modelo SCOOTER para los desvarios del clima y el ambiente",
+    "precio": 140000
   },
   {
     "nombre": "Impermeable Sudadera Over fino",
     "categoria": "Impermeables",
     "imagen": "https://i.linio.com/p/00f97892b451417a3a623c3e91662e22-product.jpg",
     "descripcion": "Impermeable de doble tapa, flexible, reflectiva y comoda para los días de lluvia.",
-    "precio": 65000
+    "precio": 170000
+  },
+  {
+    "nombre": "Botas impermeables",
+    "categoria": "Impermeables",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_768391-MCO49738817145_042022-O.jpg",
+    "descripcion": "Botas de caucho para evitar la humedad y las inundaciones en tus viajes.",
+    "precio": 80000
+  },
+  {
+    "nombre": "Pantalon de proteccion para hombre",
+    "categoria": "Impermeables",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_766814-CBT50231625018_062022-O.jpg",
+    "descripcion": "Pantalon con un material de lona antifricción equipado con bolsillos delanteros y traseros para la protección de los tobillos y las piernas.",
+    "precio": 150000
+  },
+  {
+    "nombre": "Impermeable siliconado FLASH",
+    "categoria": "Impermeables",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_943653-MCO49095187405_022022-O.jpg",
+    "descripcion": "Impermeable siliconado elaborado con PVC, termodinámico y con cuello alto para la protección contra la lluvia.",
+    "precio": 70000
+  },
+  {
+    "nombre": "Impermeable de combate",
+    "categoria": "Impermeables",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_826075-MCO32737421668_112019-O.jpg",
+    "descripcion": "Impermeable elaborado especialmente para los viajes largos. Permite la transpiración e impide el paso del agua.",
+    "precio": 160000
+  },
+  {
+    "nombre": "Impermeable deshechable",
+    "categoria": "Impermeables",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_771109-MCO49747368249_042022-O.jpg",
+    "descripcion": "Impermeable de plastico para proteger el cuerpo de las fuertes lluvias durante unos cuantos usos.",
+    "precio": 10000
+  },
+  {
+    "nombre": "Impermeable sudadera Jhomar",
+    "categoria": "Impermeables",
+    "imagen": "https://i.linio.com/p/c1cb1f55a34b4964392061d45aad3ffd-product.jpg",
+    "descripcion": "Impermeable fabricado con PVC y forrado con poliester. Protege todo el cuerpo de las lluvias fuertes y permite un rango de movimiento flexible para mayor comodidad.",
+    "precio": 150000
+  },
+  {
+    "nombre": "Pantalon impermeable sudadera OVER",
+    "categoria": "Impermeables",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_795126-MCO51622770261_092022-O.jpg",
+    "descripcion": "Fabricado con PVC y compusto con costuras termoselladas, garantiza un viaje libre de inundaciones.",
+    "precio": 90000
+  },
+  {
+    "nombre": "impermeable sudadera OVER eco",
+    "categoria": "Impermeables",
+    "imagen": "https://i.linio.com/p/2c32d2e277d5fe2d46587984e774b121-product.jpg",
+    "descripcion": "Fabricado con PVC, velcro y compusto con costuras termoselladas, para evitar el paso del agua en cualquier tormenta.",
+    "precio": 1550000
   },
   {
     "nombre": "Defensas Stunt",
     "categoria": "Defensas",
     "imagen": "https://http2.mlstatic.com/D_NQ_NP_898708-MCO44772356385_022021-O.jpg",
     "descripcion": "Elaborado con tubos de CAL y soporte de caucho para cualquier impacto, no se podría sentir mas seguro.",
-    "precio": 150000
+    "precio": 140000
+  },
+  {
+    "nombre": "Defensas Slider",
+    "categoria": "Defensas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_776124-MCO31986148998_082019-O.jpg",
+    "descripcion": "De producción nacional, esta elaborado a base de un polimero resistente con un nucelo de acero y refuerzo de aluminio.",
+    "precio": 130000
+  },
+  {
+    "nombre": "Defensa Convencional",
+    "categoria": "Defensas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_809453-MCO49457893237_032022-O.jpg",
+    "descripcion": "La más típica y una de las mas utiles. Cuenta con protección tanto en la parte delantera como fuera de la motocicleta.",
+    "precio": 290000
   },
   {
     "nombre": "Maleta Rigida Grande",
     "categoria": "Maletas y Maleteros",
     "imagen": "https://http2.mlstatic.com/D_NQ_NP_877525-MCO48241425596_112021-O.jpg",
     "descripcion": "Elaborado con fibra de carbono y reforzado con tubos de aluminio refractantes, asegurara que todo lo delicado llegue tal y como lo guardaste al empezar tu viaje.",
+    "precio": 175000
+  },
+  {
+    "nombre": "Maleta pequeña 30 L",
+    "categoria": "Maletas y Maleteros",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_805508-MCO44924508970_022021-O.jpg",
+    "descripcion": "Maletero estandar con volumen de 32 L y una capacidad de carga máxima de 5 kilos.",
+    "precio": 152000
+  },
+  {
+    "nombre": "Maletero mediano 34 L",
+    "categoria": "Maletas y Maleteros",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_794803-MCO44256434697_122020-O.jpg",
+    "descripcion": "Maletero de tamaño mediano de 32 L y una capacidad de carga máxima de 4 kilos. Capacidad integra par aun casco y un impermeable",
+    "precio": 109000
+  },
+  {
+    "nombre": "Maletero grande 40 L",
+    "categoria": "Maletas y Maleteros",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_829656-MCO54882968449_042023-V.jpg",
+    "descripcion": "Maletero con volumen de 40 L El cual cuenta con un kit de anclaje universal, integración para un casco, un impermeable y dos llaves de seguridad",
+    "precio": 180000
+  },
+  {
+    "nombre": "Chapa maletero 34 L",
+    "categoria": "Maletas y Maleteros",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_998873-MCO54952384815_042023-V.jpg",
+    "descripcion": "Base para maletero con capacidad volumétrica de 34 L",
+    "precio": 40000
+  },
+  {
+    "nombre": "Maleta trasera moto",
+    "categoria": "Maletas y Maleteros",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_970119-MCO47265578573_082021-O.jpg",
+    "descripcion": "Maleta de uso multifuncional elaborada con material resistente y con diseño versatil para cualquier practica o situación. Sencilla de instalar",
+    "precio": 206000
+  },
+  {
+    "nombre": "Maleta tanque moto",
+    "categoria": "Maletas y Maleteros",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_848589-MCO43911843637_102020-O.jpg",
+    "descripcion": "Elaborado con fibra de carbono y velcro impermelabe. Incluye tuberiá de seguridad refractante y herrajes de amarre para ajustar directamente al tanque",
+    "precio": 175000
+  },
+  {
+    "nombre": "TAMBAC rigidio mediano OVER",
+    "categoria": "Maletas y Maleteros",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_924150-MCO53690202540_022023-V.jpg",
+    "descripcion": "Mochila semirígida de tamaño mediano con tubería refractante multiusos y herrajes para ser ajustada en cualquier viaje",
     "precio": 150000
+  },
+  {
+    "nombre": "TAMBAC rigidio grande OVER",
+    "categoria": "Maletas y Maleteros",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_873625-MCO53747677703_022023-V.jpg",
+    "descripcion": "Mochila semirígida de tamaño grande con tubería refractante multiusos y herrajes para ser ajustada en cualquier viaje",
+    "precio": 190000
   },
   {
     "nombre": "Microfibra Importada",
@@ -77,11 +322,95 @@
     "precio": 43000
   },
   {
+    "nombre": "Microfibra económica de colores",
+    "categoria": "Dotación",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_702296-MCO31012201533_062019-O.jpg",
+    "descripcion": "Toallas de microfibra de elaboración cien por ciento colombiana para la limpieza y mantenimiento de vehículos.",
+    "precio": 10000
+  },
+  {
+    "nombre": "Escoba lavado",
+    "categoria": "Dotación",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_964537-MCO47014095716_082021-O.jpg",
+    "descripcion": "Escoba de mango corto para la limpieza de las ruedas, rines y acabados de la motocicleta.",
+    "precio": 25000
+  },
+  {
+    "nombre": "Lanillas",
+    "categoria": "Dotación",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_696782-MLV52840082707_122022-V.jpg",
+    "descripcion": "Lanillas para embellecer y hacer mas estética la apariencia de tu motoicleta.",
+    "precio": 10000
+  },
+  {
     "nombre": "Caucho Campana",
     "categoria": "Repuestos",
     "imagen": "https://http2.mlstatic.com/D_NQ_NP_867966-MCO31555378854_072019-O.jpg",
     "descripcion": "Repuesto de mayor alcance que garantiza un tiempo de vida útil mas duradero gracias a su material de primera calidad.",
     "precio": 13000
+  },
+  {
+    "nombre": "Retenedores",
+    "categoria": "Repuestos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_662554-MCO31540792445_072019-O.jpg",
+    "descripcion": "Retenedores de fabricación y comercialización colombiana para el acoplamiento de cualquier tubo.",
+    "precio": 27000
+  },
+  {
+    "nombre": "Retenedores",
+    "categoria": "Repuestos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_662554-MCO31540792445_072019-O.jpg",
+    "descripcion": "Retenedores de fabricación y comercialización colombiana para el acoplamiento de cualquier tubo.",
+    "precio": 27000
+  },
+  {
+    "nombre": "Posa pie delantero",
+    "categoria": "Repuestos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_706120-MCO32650638264_102019-O.jpg",
+    "descripcion": "Posa pie original (Derecho o izquierdo) original con integración de ensamblamiento.",
+    "precio": 311500
+  },
+  {
+    "nombre": "Posa pie trasero",
+    "categoria": "Repuestos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_831029-MCO48384483261_112021-O.jpg",
+    "descripcion": "Posa pie original (Derecho o izquierdo) de una sola pieza de alta calidad para motocicletas.",
+    "precio": 87000
+  },
+  {
+    "nombre": "Buje tijera",
+    "categoria": "Repuestos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_978498-MCO42184279298_062020-O.jpg",
+    "descripcion": "Repuesto bujer modelo spark para la parte trasera de la motocicleta.",
+    "precio": 100000
+  },
+  {
+    "nombre": "Cunas",
+    "categoria": "Repuestos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_899793-MCO31562163077_072019-O.jpg",
+    "descripcion": "Juego de cunas de dirección para la conducción de motocicleta, canal, apertura y balines de canastilla para ensamblaje.",
+    "precio": 125000
+  },
+  {
+    "nombre": "Kits Valvula",
+    "categoria": "Repuestos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_887539-MCO43244428314_082020-O.jpg",
+    "descripcion": "Kit de valvula con sellos y resortes importados y originales.",
+    "precio": 320000
+  },
+  {
+    "nombre": "Kits Biela",
+    "categoria": "Repuestos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_630089-MCO49131883793_022022-O.jpg",
+    "descripcion": "Kit biela de mantenimiento el cual contiene una biela, dos canastillas y tres pasadores.",
+    "precio": 150000
+  },
+  {
+    "nombre": "Centro de Clutch",
+    "categoria": "Repuestos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_910880-MCO44657894092_012021-O.jpg",
+    "descripcion": "Centro de clutch para el embrague de la moto y la comunicacio´n de la caja de cambios y el cigueñal.",
+    "precio": 300000
   },
   {
     "nombre": "Parrilla Pulsar 180-220",
@@ -91,11 +420,123 @@
     "precio": 200000
   },
   {
+    "nombre": "Parrilla Ns 200",
+    "categoria": "Parrillas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_896966-MCO46192919550_052021-O.jpg",
+    "descripcion": "Parrilla para extensión de equipamiento. Modelo de brazo corto y fabricado en Acero el cual brinda soporte fuerte.",
+    "precio": 90000
+  },
+  {
+    "nombre": "Parrilla Ns 200 de segunda mano",
+    "categoria": "Parrillas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_897113-MCO49974109850_052022-V.jpg",
+    "descripcion": "Parrilla para modelo Ns 200 de segunda mano. Entregada en perfectas condiciones para la extensión del equipaje y capacidad de carga.",
+    "precio": 60000
+  },
+  {
+    "nombre": "Parrilla pulsar UG",
+    "categoria": "Parrillas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_619606-MCO48036295616_102021-O.jpg",
+    "descripcion": "Extiende la capacidad de carga con un máximo de 15 kilos. Fabricado con fibra de carbono y acero, esta pieza no va a dejar que nada se caiga en medio de tu viaje.",
+    "precio": 164000
+  },
+  {
+    "nombre": "Parrilla apache 180",
+    "categoria": "Parrillas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_809074-MCO48610247496_122021-O.jpg",
+    "descripcion": "Parrilla de fácil instalación. Cuenta con pintura electroestática y una extensión de carga de 10 kilos. Todo un lujo",
+    "precio": 180000
+  },
+  {
+    "nombre": "Parrilla apache 200",
+    "categoria": "Parrillas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_941051-MCO44857477150_022021-O.jpg",
+    "descripcion": "Fabricacio´n a base de fibra de carbono y acero, cuenta con laminas y terminaciones en pvc duro y duradero y una extensión de carga de 15 kilos",
+    "precio": 217500
+  },
+  {
+    "nombre": "Parrilla Gixxer 150",
+    "categoria": "Parrillas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_662412-MCO45726450412_042021-O.jpg",
+    "descripcion": "Con una fácil instalación y una fabricación en acero resistente estructuradamente fuerte, la hace una pieza fenomenal de carga",
+    "precio": 196000
+  },
+  {
+    "nombre": "Parrilla Boxer 100",
+    "categoria": "Parrillas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_824026-MCO44164779586_112020-O.jpg",
+    "descripcion": "Pieza para extender la carga de equipaje. Cuenta con una estructura fuerte y un timpo de vida largo y duradero",
+    "precio": 75000
+  },
+  {
+    "nombre": "Parrilla Cr4",
+    "categoria": "Parrillas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_627942-MCO44838415810_022021-O.jpg",
+    "descripcion": "Modelo de estructura ergónomica, con tubería de acero resistente. Cuenta con un refuerzo de fibra de carbono y un lujoso acabado de pintura electroestática",
+    "precio": 130000
+  },
+  {
     "nombre": "Llanta 120/70/12 Kontrol",
     "categoria": "Llantas",
     "imagen": "https://http2.mlstatic.com/D_NQ_NP_985949-MCO52709752031_122022-O.jpg",
     "descripcion": "Llanta para modelo kontrol de 6 lonas.",
     "precio": 130000
+  },
+  {
+    "nombre": "Llanta 120/70/20 Kontrol ADV",
+    "categoria": "Llantas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_820673-MCO52709649682_122022-V.jpg",
+    "descripcion": "Llanta para modelo kontrol sellomática ideal para los viajes por entornos urbanos.",
+    "precio": 120000
+  },
+  {
+    "nombre": "Llanta 130/70/12 Kontrol",
+    "categoria": "Llantas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_927589-MCO31353974864_072019-O.jpg",
+    "descripcion": "Llanta para modelo kontrol de fabricación sellomática y resistente.",
+    "precio": 134500
+  },
+  {
+    "nombre": "Llanta 120/70/12 Dunlop ADV",
+    "categoria": "Llantas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_784956-MCO44751197685_012021-O.jpg",
+    "descripcion": "Llanta Dunlop de modelo smart ideal para los viajes de entornos urbanos.",
+    "precio": 160000
+  },
+  {
+    "nombre": "Llanta 130/70/12 Dunlop",
+    "categoria": "Llantas",
+    "imagen": "https://www.puntollantas.com/wp-content/uploads/2023/01/DUNLOP-D604-2.jpg",
+    "descripcion": "Llanta Dunlop de modelo smart ideal para los viajes de entornos urbanos. Duradera y de gran calidad",
+    "precio": 160000
+  },
+  {
+    "nombre": "Llanta 130/70/12 Michelin Grip",
+    "categoria": "Llantas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_797927-MCO52132960503_102022-O.jpg",
+    "descripcion": "Llanta Michelin de frabricación sellomática dinámica de gran duración y buen desempeño",
+    "precio": 240000
+  },
+  {
+    "nombre": "Llanta 130/70/12 Michelin",
+    "categoria": "Llantas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_956364-MCO47024002133_082021-O.jpg",
+    "descripcion": "Llanta Michelin de fabricación sellomática, duradera y de buen desempeño",
+    "precio": 210000
+  },
+  {
+    "nombre": "Llanta 130/70/12 Metzeler",
+    "categoria": "Llantas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_613563-MCO42651474802_072020-O.jpg",
+    "descripcion": "Llanta de modelo Metzeler para viajes urbanos. Cuenta con fabricación sellomática que garantiza una buena calidad",
+    "precio": 125000
+  },
+  {
+    "nombre": "Llanta 100/80/17 Metzeler",
+    "categoria": "Llantas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_858740-MCO32617366250_102019-O.jpg",
+    "descripcion": "Llanta de modelo Metzeler de fabricación sellomática. Brinda una resistencia hacia la fricción en superficies humedas garantizando un viaje seguro",
+    "precio": 299900
   },
   {
     "nombre": "Llaveros",
@@ -105,11 +546,88 @@
     "precio": 10000
   },
   {
+    "nombre": "Porta Celulares",
+    "categoria": "Accesorios",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_815432-MCO50044512264_052022-O.jpg",
+    "descripcion": "Porta celulares para motos que se adpata fácilmente el manilar y mantiene tu celular seguro mientras conduces.",
+    "precio": 150000
+  },
+  {
+    "nombre": "Candados",
+    "categoria": "Accesorios",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_803075-MCO49402810254_032022-O.jpg",
+    "descripcion": "Candado para asegurar a tu maravillosa. Ten la confianza de que la encontraras justo en el lugar anterior en el que la dejaste.",
+    "precio": 40000
+  },
+  {
+    "nombre": "Mangos",
+    "categoria": "Accesorios",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_876924-MCO32030982814_082019-O.jpg",
+    "descripcion": "Los mangos para motos protegen tus manos de la lluvia, el viento y objetos con materiales duraderos y cómodos.",
+    "precio": 45000
+  },
+  {
+    "nombre": "Porta placas",
+    "categoria": "Accesorios",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_722621-MCO43453269612_092020-O.jpg",
+    "descripcion": "Los porta placas para moto mantendran tu placa en su lugar y se adaptan a diferentes tamaños y modelos de motocicletas.",
+    "precio": 150000
+  },
+  {
+    "nombre": "Maniguetas de Lujo",
+    "categoria": "Accesorios",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_923912-MCO49422318775_032022-O.jpg",
+    "descripcion": "Las Maniguetas de lujo par amotos mejoran la estética y funcionabilidad de tu moto con su diseño ergonómico y materiales duraderos y ligeros.",
+    "precio": 120000
+  },
+  {
+    "nombre": "Protector para radiador",
+    "categoria": "Accesorios",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_742417-MCO44696641703_012021-O.jpg",
+    "descripcion": "Protege tu radiador de impactos y daños con los protectores para motos. Diseñadores para adaptarse a diferentes modelo y resistencias a la interprerie.",
+    "precio": 80000
+  },
+  {
+    "nombre": "Cortavientosr",
+    "categoria": "Accesorios",
+    "imagen": "https://i.linio.com/p/3ed2155200a1a751f6f6749c60df94dd-product.jpg",
+    "descripcion": "Protege al condcutor del viento y lluvia con los cortavientos para motos. Resistentes duraderos y se ajustan facilmente a diferentes modelos de motocicletas.",
+    "precio": 75000
+  },
+  {
     "nombre": "Cinta Led",
     "categoria": "Luces",
     "imagen": "https://http2.mlstatic.com/D_NQ_NP_719293-MLA42826592689_072020-V.jpg",
     "descripcion": "Cintas LED para motos: accesorios luminosos para personalizar y hacer visible tu moto en la oscuridad.",
     "precio": 35000
+  },
+  {
+    "nombre": "Bombillos",
+    "categoria": "Luces",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_802598-MCO45116669478_032021-V.jpg",
+    "descripcion": "Bombillas para motos, iluminación de alta calidad para una conducción segura en cualquuier condición de luz.",
+    "precio": 135000
+  },
+  {
+    "nombre": "Luces explorador",
+    "categoria": "Luces",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_726887-MCO32569744116_102019-O.jpg",
+    "descripcion": "Las luces exploradoras para motos aumentan la visibilidad y permiten la visibilidad en condiciones extremas, mejorando la seguridad en la conducción.",
+    "precio": 135000
+  },
+  {
+    "nombre": "Luces Direccionales",
+    "categoria": "Luces",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_933843-MCO49080625004_022022-O.jpg",
+    "descripcion": "Las luces direccionales para motos son esenciales para indicar las maniobras del condcutor al cambiar de carril o al dar giros",
+    "precio": 170000
+  },
+  {
+    "nombre": "Otras Luces",
+    "categoria": "Luces",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_831819-CBT50798071255_072022-O.jpg",
+    "descripcion": "Luces adicionales para motos, ideales para mejorar la visibilidad y seguridad durante la conducción en condiciones de baja luminosidad durante la noche",
+    "precio": 100000
   },
   {
     "nombre": "Pinlock",
@@ -119,11 +637,88 @@
     "precio": 45000
   },
   {
+    "nombre": "Botones para casco",
+    "categoria": "Accesorios Cascos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_614297-MCO27393218070_052018-O.jpg",
+    "descripcion": "Los botones para cascos de moto son accesorios practicos y convenientes que te permiten controlar losd emás accesorios en tu casco.",
+    "precio": 30000
+  },
+  {
+    "nombre": "Intercomunicaciones y Bluetooth",
+    "categoria": "Accesorios Cascos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_695841-MCO49468150720_032022-O.jpg",
+    "descripcion": "Inter comunicadores Blueetooth para motos. Comunicate con facilidad y seguridad mientras conduces.",
+    "precio": 60000
+  },
+  {
+    "nombre": "Otros accesorios",
+    "categoria": "Accesorios Cascos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_887269-MCO46642237294_072021-O.jpg",
+    "descripcion": "Accesorios para casos de motos. Mejora tu experiencia en la carretera con nuestra selección de accesorios de alta calidad y duraderos diseñados para brindarte comodidad y seguridad al conducir.",
+    "precio": 25000
+  },
+  {
     "nombre": "Tacometro GIXXER 150",
     "categoria": "Tacómetro",
     "imagen": "https://gfmotors.cl/wp-content/uploads/2022/07/3-102.png",
     "descripcion": "El tacómetro GIXXER 150 es una opción precisa y confiable para mantener un registro de la velocidad de tu moto.",
     "precio": 75000
+  },
+  {
+    "nombre": "Tacometro NS 200",
+    "categoria": "Tacómetro",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_804709-MCO44056214904_112020-O.jpg",
+    "descripcion": "El tacómetro NS 200 ofrece una fácil lectura de la velocidad y cuenta con una pantalla clara y nitida.",
+    "precio": 90000
+  },
+  {
+    "nombre": "Tacometro Honda XBlade",
+    "categoria": "Tacómetro",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_945403-MCO50811012137_072022-O.jpg",
+    "descripcion": "El tacómetro Honda XBlade cuenta con una pantalla LED de alta calidad y una carcasa resistente para mayor durabilidad.",
+    "precio": 80000
+  },
+  {
+    "nombre": "Tacometro Gixxer 250",
+    "categoria": "Tacómetro",
+    "imagen": "https://i.linio.com/p/6639a27de09a35422601e80919247bbd-product.jpg",
+    "descripcion": "El tacómetro Gixxer 250 es una excelente opción para aquellos que buscan una pantalla de lata definición y un diseño moderno.",
+    "precio": 120000
+  },
+  {
+    "nombre": "Tacometro EVO R3",
+    "categoria": "Tacómetro",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_685958-MCO45393164987_032021-O.jpg",
+    "descripcion": "El tacómetro EVO R3 es fácil de instalar y cuenta con un diseño elegante y compacto.",
+    "precio": 70000
+  },
+  {
+    "nombre": "Tacometro FZ 16",
+    "categoria": "Tacómetro",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_850689-MCO43237624772_082020-O.jpg",
+    "descripcion": "El tacómetro FZ 16 ofrece una lectura precisa y una pantalla de gran tamaño para mayor comodidad",
+    "precio": 65000
+  },
+  {
+    "nombre": "Tacometro Discover",
+    "categoria": "Tacómetro",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_854012-MCO42009749832_052020-O.jpg",
+    "descripcion": "El tacómetro Discover cuenta con una carcasa robusta y una pantalla digital clara para facilitar la lectura de la velocidad",
+    "precio": 200000
+  },
+  {
+    "nombre": "Tacometro EVO NE",
+    "categoria": "Tacómetro",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_767998-MCO32402224088_102019-O.jpg",
+    "descripcion": "El tacómetro EVO NE es una opción altamente fncional con una pantalla LED de alta calidad y un diseño aerodinámico",
+    "precio": 130000
+  },
+  {
+    "nombre": "Tacometro Fz 250",
+    "categoria": "Tacómetro",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_658815-MCO47656545405_092021-O.jpg",
+    "descripcion": "El tacómetro Fz 250 ofrece una lectura precisa y constante de la velcodad y su diseño compacto lo hace más fácil de instalar en cualquier motocicleta",
+    "precio": 145000
   },
   {
     "nombre": "Aceites",
@@ -133,11 +728,81 @@
     "precio": 55000
   },
   {
+    "nombre": "Lubricante para cadenas",
+    "categoria": "Lubricante",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_898612-MCO43878909895_102020-O.jpg",
+    "descripcion": "Protege y prolonga la vida útil de la cadena de tu motocicleta con nuestros lubricantes especializados diseñados para reducir la fricción y el desgaste.",
+    "precio": 55000
+  },
+  {
+    "nombre": "Silicona para brillar",
+    "categoria": "Lubricante",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_831845-MCO44866081918_022021-V.jpg",
+    "descripcion": "Silicona para motos de alta calidad, diseñada para lubricar y proteger piezas de goma, plástico y metal.",
+    "precio": 35000
+  },
+  {
+    "nombre": "Otros",
+    "categoria": "Lubricante",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_817670-MCO31353837416_072019-O.jpg",
+    "descripcion": "Productos relacionados con aceite, lubricante y silicona para motos, ideales para el mantenimiento y cuidado de la moto,con una amplia variedad de opciones para distintas necesidades y usos.",
+    "precio": 30000
+  },
+  {
     "nombre": "Fusible Vidrio Corto/15",
     "categoria": "Eléctrico",
     "imagen": "https://www.didacticaselectronicas.com/images/stories/virtuemart/product/FC-0.1A.jpg",
     "descripcion": "El fusible de vidrio corto de 15 amperios es un componente esencial para proteger el circuito eléctrico de tu motocicleta, brindando una mayor seguridad y fiabilidad en su funcionamiento.",
-    "precio": 55000
+    "precio": 30000
+  },
+  {
+    "nombre": "Fusible Vidrio Corto/20",
+    "categoria": "Eléctrico",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_991112-MCO49715933611_042022-O.jpg",
+    "descripcion": "El fusible de vidrio corto de 20 amperios es un componente esencial para la seguridad electrica de tu motocicleta proporcionando proteccio´n contra cortocircuitos y sobrecargas electricas.",
+    "precio": 30000
+  },
+  {
+    "nombre": "Fusible Vidrio Largo/15",
+    "categoria": "Eléctrico",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_691077-MLV31251178702_062019-O.jpg",
+    "descripcion": "El fusible de vidrio largo de 15 amperios protege la seguridad electrica de tu moto de sobrecargas y cortocircuitos, es fácil de reemplazar y compatible con diferentes modelos.",
+    "precio": 40000
+  },
+  {
+    "nombre": "Bateria YB5L-B TESLA",
+    "categoria": "Eléctrico",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_908448-MCO49330338864_032022-V.jpg",
+    "descripcion": "La bateria YB5L-B TESLA es un prodcuto de alta calidad y rendimiento diseñado para motocicletas. Con una cpacidad de arranque confiable y durabilidad excepcional.",
+    "precio": 350000
+  },
+  {
+    "nombre": "Bateria MF-YB7BB MAGNA",
+    "categoria": "Eléctrico",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_904197-MCO49653194764_042022-O.jpg",
+    "descripcion": "La bateria MF-YB7BB MAGNA es un producto de alta calidad para motocicletas, diseñado para brindar un rendimiento confiable y duradero en condiciones extremas.",
+    "precio": 400000
+  },
+  {
+    "nombre": "Bateria MF-YTX12BS MAGNA",
+    "categoria": "Eléctrico",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_694828-MCO46533373954_062021-O.jpg",
+    "descripcion": "La bateria MF-YTX12BS MAGNA es una batería de alta calidad diseñada para brindar un rendimiento confiable y duradero a tu motocicleta. Con una capacidad de 10 amperios.",
+    "precio": 300000
+  },
+  {
+    "nombre": "Bateria 12N7-4AXPR",
+    "categoria": "Eléctrico",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_680317-MCO43167848337_082020-O.jpg",
+    "descripcion": "La bateria 12N7-4AXPR es una opción cinfiable y de alta calidad para motocicletas, con una excelente durabilidad y capacidad de arranque en frío.",
+    "precio": 300000
+  },
+  {
+    "nombre": "Bateria MF-6N42A MAGNA",
+    "categoria": "Eléctrico",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_756226-MCO31035440221_062019-O.jpg",
+    "descripcion": "La bateria MF-6N42A MAGNA es un modelo de alta calidad y durabilidad diseñado para satisfacer las necesidades energéticas de tu motocicleta. Con una capacidad de arraqnue y confiable y resistencia a la vibración.",
+    "precio": 500000
   },
   {
     "nombre": "Chaqueta de Proteccion XXXL",
@@ -147,11 +812,95 @@
     "precio": 95000
   },
   {
+    "nombre": "Chaqueta cortavientos reflectiva",
+    "categoria": "Chaquetas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_997948-MCO46183770946_052021-O.jpg",
+    "descripcion": "Chaqueta cortavientos reflectiva para motos. Protege del viento y la lluvia mientras brinda visibilidad adicional en la noche gracias a sus materiales reflectantes.",
+    "precio": 90000
+  },
+  {
+    "nombre": "Chaqueta doble faz",
+    "categoria": "Chaquetas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_981917-MCO47047029936_082021-O.jpg",
+    "descripcion": "La chaqueta doble faz para motos combina estilo y protección en una prenda versatil y resistente, confeccionada con materiales cómodos y reversibles.",
+    "precio": 85000
+  },
+  {
+    "nombre": "Chaqueta impermeable doble faz OVER",
+    "categoria": "Chaquetas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_938985-MCO52031407397_102022-O.jpg",
+    "descripcion": "La chaqueta impermeable doble faz OVER es un accesorio de alta calidad para motociclistas que protege de la lluvia y el viento. Confeccionada con materiales resistentes y duraderos, esta chaqueta es de diseño versatil.",
+    "precio": 100000
+  },
+  {
+    "nombre": "Chaqueta de protección",
+    "categoria": "Chaquetas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_842050-MLA52608994427_112022-O.jpg",
+    "descripcion": "La chaqueta de protección para motos ofrece seguridad y comodidad al conductor, con materiales resistentes y diseño eronómico para una mayor protección ante posibles accidentes.",
+    "precio": 80000
+  },
+  {
+    "nombre": "Chaqueta negra OVER",
+    "categoria": "Chaquetas",
+    "imagen": "https://i.linio.com/p/78f9e64849c4def299c41d90ab700cfa-product.jpg",
+    "descripcion": "La chaqueta negra OVER e suna prenda de alta calidad con características de seguridad y protección para el condcutor de motocicletas, fabricada con materiales resistentes a la abrasión y al viento.",
+    "precio": 90000
+  },
+  {
+    "nombre": "Chaqueta reflectiva alcolchada",
+    "categoria": "Chaquetas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_891880-MCO47393676970_092021-O.jpg",
+    "descripcion": "Chaqueta reflectiva alcolchada para motos con materiales resistentes y detalles refelctantes para mayor visibilidad en situaciones de poca luz.",
+    "precio": 70000
+  },
+  {
+    "nombre": "Chaqueta reflectiva escolta",
+    "categoria": "Chaquetas",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_984168-MCO32856181315_112019-O.jpg",
+    "descripcion": "El chaleco reflectivo escolta para mtos es un accesorio de seguridad indispensable que mejora la visibilidad del condcutor en la carretera, gracias a su alta capacidad reflectante.",
+    "precio": 65000
+  },
+  {
     "nombre": "Casco LS2",
     "categoria": "Cascos",
     "imagen": "https://asturias.com.co/wp-content/uploads/2021/12/IMG_52D1E1-F2F9D8-478577-7533AA-54BDA8-DEED89.jpeg",
     "descripcion": "Casco LS2: un casco de alta calidad y durabilidad, diseñado para brindar la máxima protección y comodidad al conductor de motocicletas.",
     "precio": 175000
+  },
+  {
+    "nombre": "Casco MT",
+    "categoria": "Cascos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_798508-MCO49412836285_032022-O.jpg",
+    "descripcion": "El casco MT es perfecto para las personas que disfruten de largos viajes. Protege del viento y evita la sofocación.",
+    "precio": 195000
+  },
+  {
+    "nombre": "Casco SHAFT",
+    "categoria": "Cascos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_942912-MCO50036552018_052022-O.jpg",
+    "descripcion": "El casco SHAFT para motocicleta ofrece una combinación de seguridad y estilo, con un diseño aerodinámico y materiales de alta calidad para brindar protección al conductor en todo momento.",
+    "precio": 190000
+  },
+  {
+    "nombre": "Casco ICH",
+    "categoria": "Cascos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_874576-MCO47095100194_082021-O.jpg",
+    "descripcion": "El casco ICH es una opción de alta calidad para los motociclistas que buscan seguridad  yestilo en su equipo de proteccio´n. Con su diseño aerodinámico y materiales resistentes.",
+    "precio": 200000
+  },
+  {
+    "nombre": "Casco SPARTAN",
+    "categoria": "Cascos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_845249-MCO47872714822_102021-O.jpg",
+    "descripcion": "El casco SPARTAN es una opción de alta calidad para los motociclistas que buscan comodidad y seguridad en sus viajes. Con un diseño aerodinámico y materiales resistentes.",
+    "precio": 220000
+  },
+  {
+    "nombre": "Otros cascos",
+    "categoria": "Cascos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_952837-CBT50204268061_062022-O.jpg",
+    "descripcion": "Explora nuestra selección de cascos especializados para diferentes tipos de conducción y descubre la protección y estilo que necesitas para tus aventuras en moto.",
+    "precio": 160000
   },
   {
     "nombre": "Visor AGV",
@@ -161,10 +910,109 @@
     "precio": 35000
   },
   {
+    "nombre": "Visor MT",
+    "categoria": "Visores",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_675349-MCO51815870934_102022-O.jpg",
+    "descripcion": "Los accesorios para el visor MT incluye protectores, lentes y antivaho para mejorar la visibildiad y la protección del condcutor.",
+    "precio": 45000
+  },
+  {
+    "nombre": "Visor SHAFT",
+    "categoria": "Visores",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_922458-MCO52070254508_102022-O.jpg",
+    "descripcion": "El visor SHAFT estan diseñados para mejorar la funcionabilidad y comodidad del casco. Con opciones como pantallas solares, viseras anti-vaho y protecotres de pantalla.",
+    "precio": 40000
+  },
+  {
+    "nombre": "Visor ICH",
+    "categoria": "Visores",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_922458-MCO52070254508_102022-O.jpg",
+    "descripcion": "El visor ICH tiene una variedad de accesorios disponibles para mejorar su funcionabilidad para mejorar su funcionabilidad, comodidad y protección. Estos incluye viseras, protectores, limpiadores y mas.",
+    "precio": 70000
+  },
+  {
+    "nombre": "Visor SPARTAN",
+    "categoria": "Visores",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_614808-MCO50262103121_062022-V.jpg",
+    "descripcion": "Los accesorios para el visor SPARTAN incluyen pantallaas antivaho y lentes adicionales para adaptarse a diferentes condiciones de luz mejorando la visibilidad y seguridad.",
+    "precio": 60000
+  },
+  {
+    "nombre": "Visor XSport",
+    "categoria": "Visores",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_856508-MCO49030952001_022022-O.jpg",
+    "descripcion": "El catalogo para el visor XSport ofrece diversos accesorios de alta calidad que mejoran la funcionabilidad y el rendimiento del visor, incluyendo protecotres de pantalla, lentes de repuesto y adaptadores universales.",
+    "precio": 75000
+  },
+  {
+    "nombre": "Visor kontrol",
+    "categoria": "Visores",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_859305-MCO20866704738_082016-O.jpg",
+    "descripcion": "El visor kontrol es compatible con una variedad de avvesorios para mejorar la experiencia del motociclista, como protectores de visera, antivaho y antiarañazos.",
+    "precio": 90000
+  },
+  {
+    "nombre": "Visor HRO",
+    "categoria": "Visores",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_991518-MCO48246318702_112021-O.jpg",
+    "descripcion": "Accesorios para Visor HRO que mejoran la protección y la comodidad del usuario mientras se conduce.",
+    "precio": 65000
+  },
+  {
+    "nombre": "Visor LS2",
+    "categoria": "Visores",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_969023-MCO54292430261_032023-O.jpg",
+    "descripcion": "Los accesorios para el visor LS2 incluyen lentes ahumados, anti-rayas y antivaho que mejoran la visibilidad y la protección del conductor.",
+    "precio": 70000
+  },
+  {
     "nombre": "Sistema HRO",
     "categoria": "Sistema de Cascos",
     "imagen": "https://http2.mlstatic.com/D_NQ_NP_917313-MCO47817362478_102021-O.jpg",
     "descripcion": "Accesorios para cascos HRO: mejora tu experiencia de conducción con nuestra selección de accesorios para el sistema de cascos HRO, incluyendo viseras, auriculares y micrófonos.",
     "precio": 75000
+  },
+  {
+    "nombre": "Sistema SPARTAN",
+    "categoria": "Sistema de Cascos",
+    "imagen": "https://i.ebayimg.com/thumbs/images/g/xS8AAOSw-K9ZHCFC/s-l300.jpg",
+    "descripcion": "El sistema de cascos SPARTAN diseñados para mejorar tu experiencia de conducción en moto.Encuentra opciones como viceras intercomunicadores,soportes y más.",
+    "precio": 85000
+  },
+  {
+    "nombre": "Sistema ICH",
+    "categoria": "Sistema de Cascos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_735080-MCO31550144383_072019-O.jpg",
+    "descripcion": "Explora nuestra amplia seleccio´n de accesorios para el sistemad e cascos ICH, diseñados para mejorar la comodidad, seguridad yfuncionabilidad de tu experiencia de conducción en motocicleta.",
+    "precio": 100000
+  },
+  {
+    "nombre": "Sistema SHAFT",
+    "categoria": "Sistema de Cascos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_852871-MCO52717984568_122022-O.jpg",
+    "descripcion": "El Sistema de cascos SHAFT, diseñados para mejoar tu experiencia de conducción y brindan comodidad y seguridad en el camino.",
+    "precio": 105000
+  },
+  {
+    "nombre": "Sistema MT",
+    "categoria": "Sistema de Cascos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_908581-MCO47073959938_082021-O.jpg",
+    "descripcion": "Descubre los diversos avvesorios disponibles para el sistema de cascos MT, desde viseras y pantallas hasta almohadillas y forros de repuesto para brindar una experiencia de conducción segura y comoda.",
+    "precio": 90000
+  },
+  {
+    "nombre": "Sistema KONTROL",
+    "categoria": "Sistema de Cascos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_808775-MCO45030267836_022021-O.jpg",
+    "descripcion": "El sistema de cascos KONTROL incluyen una amplia variedad de opciones para personalizar y mejorar tu experiencia en la carretera. Desde microfonos y altavoces hasta viseras y soportes para camaras.",
+    "precio": 90000
+  },
+  {
+    "nombre": "Otros sistemas de casco",
+    "categoria": "Sistema de Cascos",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_664859-MCO50012617427_052022-O.jpg",
+    "descripcion": "Descubre nuestra amplia selección de accesorios para cascos de motocicleta, incluyendo sistemas de comunicación inalambricos, almohadillas para la barbilla y más.",
+    "precio": 110000
   }
+
 ]
